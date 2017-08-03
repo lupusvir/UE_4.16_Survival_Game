@@ -1,0 +1,1627 @@
+﻿Log file open, 07/30/17 14:55:40
+LogInit:Display: Running engine for game: Survival_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2095969887) SRandInit(2095969887).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.115509
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: A:/Unreal Engine Things/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.30-21.55.41:277][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.30-21.55.41:277][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.30-21.55.41:341][  0]LogInit: Computer: DESKTOP-SSL098G
+[2017.07.30-21.55.41:341][  0]LogInit: User: antma
+[2017.07.30-21.55.41:341][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.30-21.55.41:341][  0]LogInit: High frequency timer resolution =3.417966 MHz
+[2017.07.30-21.55.41:341][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.30-21.55.41:341][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.30-21.55.41:341][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.63 MB peak
+[2017.07.30-21.55.41:341][  0]LogMemory: Process Virtual Memory: 260.69 MB used, 260.69 MB peak
+[2017.07.30-21.55.41:341][  0]LogMemory: Physical Memory: 5130.06 MB used,  11181.94 MB free, 16312.00 MB total
+[2017.07.30-21.55.41:341][  0]LogMemory: Virtual Memory: 638.48 MB used,  11181.94 MB free, 134217728.00 MB total
+[2017.07.30-21.55.41:714][  0]LogInit: Using OS detected language (en-US).
+[2017.07.30-21.55.41:714][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.30-21.55.41:858][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.30-21.55.44:814][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.30-21.55.44:849][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.30-21.55.44:849][  0]LogD3D11RHI:       8085/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.30-21.55.44:850][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.30-21.55.44:850][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.30-21.55.44:850][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.30-21.55.44:854][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.30-21.55.44:854][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.30-21.55.44:854][  0]LogWindows: EnumDisplayDevices:
+[2017.07.30-21.55.44:855][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.30-21.55.44:855][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.30-21.55.44:855][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.30-21.55.44:855][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.30-21.55.44:855][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.30-21.55.44:855][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.30-21.55.44:855][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.07.30-21.55.44:855][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.07.30-21.55.44:855][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.30-21.55.44:878][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.30-21.55.44:894][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.30-21.55.44:943][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Intermediate/Shaders/WorkingDirectory/340/).
+[2017.07.30-21.55.44:943][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/antma/AppData/Local/Temp/UnrealShaderWorkingDir/53896A5144E428472C4357BDAF197BCB/'.
+[2017.07.30-21.55.44:943][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.30-21.55.47:616][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.30-21.55.47:650][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.30-21.55.47:682][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.30-21.55.47:715][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.30-21.55.47:796][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.30-21.55.47:827][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.30-21.55.47:859][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.30-21.55.47:892][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.30-21.55.47:919][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.30-21.55.47:987][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.30-21.55.48:018][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.30-21.55.48:050][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.30-21.55.48:081][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.30-21.55.48:113][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.30-21.55.48:144][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.30-21.55.48:207][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.30-21.55.48:207][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.30-21.55.48:231][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.30-21.55.48:344][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.30-21.55.48:363][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.30-21.55.48:395][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.30-21.55.48:426][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.30-21.55.48:457][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.30-21.55.48:493][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.30-21.55.48:493][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.30-21.55.49:514][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.30-21.55.50:586][  0]LogDerivedDataCache: Loaded boot cache 1.07s 90MB C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.30-21.55.50:586][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.30-21.55.50:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.30-21.55.50:586][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.30-21.55.50:586][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.30-21.55.50:586][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.30-21.55.50:696][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.30-21.55.50:740][  0]LogDerivedDataCache: Using Local data cache path C:/Users/antma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.30-21.55.50:748][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.30-21.55.50:749][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.30-21.55.50:808][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.30-21.55.50:809][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.30-21.55.56:037][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.30-21.55.56:476][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.30-21.55.56:701][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.30-21.55.56:803][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.30-21.55.56:831][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.30-21.55.56:831][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.30-21.55.56:831][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.30-21.55.58:737][  0]LogNetVersion: Survival_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 845712781)
+[2017.07.30-21.55.58:905][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.07.30-21.55.58:985][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.056139 seconds
+[2017.07.30-21.55.58:991][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.30-21.55.58:991][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.30-21.55.58:991][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.30-21.55.59:030][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.30-21.56.05:787][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.30-21.56.05:815][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.30-21.56.06:397][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.30-21.56.06:762][  0]SourceControl: Info Source control is disabled
+[2017.07.30-21.56.07:493][  0]SourceControl: Info Source control is disabled
+[2017.07.30-21.56.07:521][  0]SourceControl: Info Source control is disabled
+[2017.07.30-21.56.07:549][  0]SourceControl: Info Source control is disabled
+[2017.07.30-21.56.08:130][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.30-21.56.08:604][  0]LogEngine: Initializing Engine...
+[2017.07.30-21.56.08:604][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.30-21.56.09:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.30-21.56.09:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.30-21.56.09:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.30-21.56.09:186][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.30-21.56.09:197][  0]LogInit: FAudioDevice initialized.
+[2017.07.30-21.56.09:246][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.30-21.56.09:257][  0]LogInit: Texture streaming: Enabled
+[2017.07.30-21.56.09:317][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.30-21.56.09:575][  0]LogInit: Transaction tracking system initialized
+[2017.07.30-21.56.09:772][  0]BlueprintLog: New page: Editor Load
+[2017.07.30-21.56.10:375][  0]LocalizationService: Info Localization service is disabled
+[2017.07.30-21.56.10:907][  0]LogConsoleResponse:Display: 
+[2017.07.30-21.56.12:439][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.30-21.56.12:439][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.30-21.56.12:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/' took 0.04s
+[2017.07.30-21.56.13:854][  0]SourceControl: Info Source control is disabled
+[2017.07.30-21.56.13:854][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-21.56.13:876][  0]LightingResults: New page: Lighting Build
+[2017.07.30-21.56.13:902][  0]MapCheck: New page: Map Check
+[2017.07.30-21.56.13:902][  0]LightingResults: New page: Lighting Build
+[2017.07.30-21.56.14:309][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.30-21.56.14:310][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.30-21.56.14:353][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-21.56.14:369][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-21.56.14:400][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.858ms to complete.
+[2017.07.30-21.56.14:400][  0]LogFileHelpers: Loading map 'Template_Default' took 0.546
+[2017.07.30-21.56.14:677][  0]LogCollectionManager: Loaded 0 collections in 0.000772 seconds
+[2017.07.30-21.56.14:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Collections/' took 0.01s
+[2017.07.30-21.56.14:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Developers/antma/Collections/' took 0.01s
+[2017.07.30-21.56.14:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Collections/' took 0.01s
+[2017.07.30-21.56.14:739][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.30-21.56.14:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2017.07.30-21.56.14:786][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.30-21.56.15:389][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.30-21.56.15:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.30-21.56.15:442][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.30-21.56.15:455][  0]LogSlate: Took 0.008227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.30-21.56.15:470][  0]LogSlate: Took 0.012959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.30-21.56.15:486][  0]LogSlate: Took 0.011088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.30-21.56.15:733][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2017.07.30-21.56.15:869][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.30-21.56.15:920][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.30-21.56.15:920][  0]LogLoad: (Engine Initialization) Total time: 38.81 seconds
+[2017.07.30-21.56.15:920][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.07.30-21.56.15:920][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.30-21.56.15:920][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.30-21.56.15:932][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.30-21.56.15:932][  0]LogOcInput: OculusInput pre-init called
+[2017.07.30-21.56.15:932][  0]LogHMD: Starting GearVRController plugin
+[2017.07.30-21.56.15:951][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.30-21.56.16:062][  0]LogSlate: Took 0.018920 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.30-21.56.16:119][  1]LogAssetRegistry: Asset discovery search completed in 17.2365 seconds
+[2017.07.30-21.56.16:121][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.30-21.56.16:121][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2017.07.30-21.56.19:785][369]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-21.56.19:788][369]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.30-21.56.19:799][369]LightingResults: New page: Lighting Build
+[2017.07.30-21.56.19:800][369]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-21.56.19:805][369]MapCheck: New page: Map Check
+[2017.07.30-21.56.19:805][369]LightingResults: New page: Lighting Build
+[2017.07.30-21.56.20:668][369]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.30-21.56.38:791][369]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-21.56.40:653][369]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-21.56.40:688][369]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-21.56.40:728][369]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.205ms to complete.
+[2017.07.30-21.56.40:728][369]LogFileHelpers: Loading map 'Level1' took 20.944
+[2017.07.30-21.56.52:209][685]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.07.30-21.56.53:163][781]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-21.56.54:057][875]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-21.56.58:283][374]MapCheck: New page: Map Check
+[2017.07.30-21.56.58:293][374]Cmd: MAP REBUILD ALLVISIBLE
+[2017.07.30-21.56.58:293][374]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.07.30-21.56.59:626][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.07.30-21.56.59:658][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.07.30-21.56.59:683][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.07.30-21.56.59:700][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_PLains_Fern01, compiling. 
+[2017.07.30-21.56.59:791][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Floors_Block, compiling. 
+[2017.07.30-21.56.59:828][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Villa_Pillar_1, compiling. 
+[2017.07.30-21.56.59:890][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_FloorTrims, compiling. 
+[2017.07.30-21.56.59:895][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_StoneWall, compiling. 
+[2017.07.30-21.56.59:920][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars, compiling. 
+[2017.07.30-21.56.59:964][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars02, compiling. 
+[2017.07.30-21.56.59:979][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_HardWood_Floor, compiling. 
+[2017.07.30-21.56.59:984][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.07.30-21.57.00:031][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Decos_Door, compiling. 
+[2017.07.30-21.57.00:064][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TriforceColor, compiling. 
+[2017.07.30-21.57.00:096][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_LargeRock, compiling. 
+[2017.07.30-21.57.01:291][374]TextureStreamingBuild:Display: Compiling optional shaders took 1.730 seconds.
+[2017.07.30-21.57.01:336][374]LogLevel:Display: Export Material TexCoord Scales took 0.044 seconds.
+[2017.07.30-21.57.01:373][374]TextureStreamingBuild:Display: Build Texture Streaming took 0.037 seconds.
+[2017.07.30-21.57.01:387][374]LightingResults: New page: Lighting Build - Jul 30, 2017, 7:57:01 AM
+[2017.07.30-21.57.01:525][374]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.30-21.57.01:617][374]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.30-21.57.01:625][374]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.30-21.57.03:138][374]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.30-21.57.03:138][374]LogSwarmInterface: [TryOpenConnection] Local Process ID is 340
+[2017.07.30-21.57.06:944][374]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.30-21.57.06:944][374]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.30-21.57.06:944][374]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.30-21.57.06:944][374]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.30-21.57.06:944][374]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.30-21.57.07:598][374]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.07.30-21.57.07:598][374]MapCheck: New page: Level1 - Jul 30, 2017, 7:57:07 AM
+[2017.07.30-21.57.07:601][374]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.07.30-21.57.07:641][374]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 43.648ms to complete.
+[2017.07.30-21.57.07:663][374]LogEditorBuildUtils: Build time 0:09
+[2017.07.30-21.57.07:921][376]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_LargeRock, compiling. 
+[2017.07.30-21.57.08:001][376]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_LargeRock, compiling. 
+[2017.07.30-21.57.50:268][419]Job is a success!
+[2017.07.30-21.57.53:907][420]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 1024X1024)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 64X64)
+[2017.07.30-21.57.53:908][420]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 64X64)
+[2017.07.30-21.57.56:108][420]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 128X128)
+[2017.07.30-21.57.56:108][420]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 128X128)
+[2017.07.30-21.57.56:177][420]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 128X128)
+[2017.07.30-21.57.56:177][420]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 128X128)
+[2017.07.30-21.57.56:177][420]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2017.07.30-21.57.56:224][420]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 128X128)
+[2017.07.30-21.57.56:224][420]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 128X128)
+[2017.07.30-21.57.56:224][420]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 128X128)
+[2017.07.30-21.57.56:224][420]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2017.07.30-21.57.56:451][420]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X128)
+[2017.07.30-21.57.56:451][420]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 128X128)
+[2017.07.30-21.57.56:451][420]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 128X128)
+[2017.07.30-21.57.56:451][420]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2017.07.30-21.57.56:451][420]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8, 64X64)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8, 32X32)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X128)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 128X128)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8, 128X64)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 128X128)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 512X64)
+[2017.07.30-21.57.56:452][420]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 128X128)
+[2017.07.30-21.57.57:558][420]Lightmass on DESKTOP-SSL098G: 47.0 sec total, 1.68 sec importing, 432 ms setup, 8.40 sec photons, 36.4 sec processing, 0 ms extra exporting [664/664 mappings]. Threads: 4:15 min total, 2:55 min processing.
+[2017.07.30-21.57.58:652][420]LogStaticLightingSystem: Illumination: 57.2 sec (2.46 sec encoding lightmaps, 2.54 sec encoding shadowmaps)
+[2017.07.30-21.57.58:653][420]LogStaticLightingSystem: Lightmap texture memory:  9.9 MB (7.9 MB streaming, 2.0 MB non-streaming), 42 textures
+[2017.07.30-21.57.58:653][420]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.1 MB streaming, 0.3 MB non-streaming), 21 textures
+[2017.07.30-21.58.04:974][420]DumpUnbuiltLightIteractions
+[2017.07.30-21.58.04:974][420]Lights with unbuilt interactions: 0
+[2017.07.30-21.58.04:974][420]
+[2017.07.30-21.58.04:974][420]Primitives with unbuilt interactions: 0
+[2017.07.30-21.58.04:975][421]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.30-21.58.04:975][421]MapCheck: New page: Level1 - Jul 30, 2017, 7:58:04 AM
+[2017.07.30-21.58.05:019][421]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.682ms to complete.
+[2017.07.30-21.58.07:128][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-21.58.07:914][644]LogSavePackage: Save=578.23ms
+[2017.07.30-21.58.07:914][644]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level150A2F9DA401C2A1B1E1253BFDF153E74.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.30-21.58.07:918][644]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.30-21.58.07:948][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.30-21.58.09:803][644]LogSavePackage: Save=669.65ms
+[2017.07.30-21.58.09:804][644]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData8C4EA5894C2ACB33405D769FAF364C2C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.30-21.58.09:809][644]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.30-21.58.12:780][799]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.07.30-21.58.44:970][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-21.58.44:989][355]LogSavePackage: Save=6.87ms
+[2017.07.30-21.58.44:989][355]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level283E42A5F4D7EDEC5F0483098C1C3A654.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-21.58.44:991][355]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-21.58.44:991][355]LogFileHelpers: Saving map 'Level2' took 0.066
+[2017.07.30-21.58.44:994][355]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-21.58.44:994][355]LightingResults: New page: Lighting Build
+[2017.07.30-21.58.44:995][355]LoadErrors: New page: Loading map: Level2.umap
+[2017.07.30-21.58.44:999][355]MapCheck: New page: Map Check
+[2017.07.30-21.58.44:999][355]LightingResults: New page: Lighting Build
+[2017.07.30-21.58.45:023][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-21.58.45:023][355]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-21.58.45:055][355]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-21.58.45:097][355]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.097ms to complete.
+[2017.07.30-21.58.45:098][355]LogFileHelpers: Loading map 'Level2' took 0.105
+[2017.07.30-21.58.55:233][556]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128)
+[2017.07.30-22.00.00:030][686]LightingResults: New page: Lighting Build
+[2017.07.30-22.00.00:031][686]MapCheck: New page: Map Check
+[2017.07.30-22.00.00:031][686]LightingResults: New page: Lighting Build
+[2017.07.30-22.00.00:040][686]LogAIModule: Creating AISystem for world Untitled
+[2017.07.30-22.00.00:050][686]LoadErrors: New page: New Map
+[2017.07.30-22.00.00:054][686]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-22.00.05:613][ 43]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-22.00.05:649][ 43]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.00.05:649][ 43]LightingResults: New page: Lighting Build
+[2017.07.30-22.00.05:649][ 43]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-22.00.05:650][ 43]MapCheck: New page: Map Check
+[2017.07.30-22.00.05:650][ 43]LightingResults: New page: Lighting Build
+[2017.07.30-22.00.05:677][ 43]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.00.05:704][ 43]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.00.05:750][ 43]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.826ms to complete.
+[2017.07.30-22.00.05:750][ 43]LogFileHelpers: Loading map 'Level1' took 0.109
+[2017.07.30-22.00.10:267][473]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.00.10:280][473]LightingResults: New page: Lighting Build
+[2017.07.30-22.00.10:281][473]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.07.30-22.00.10:284][473]MapCheck: New page: Map Check
+[2017.07.30-22.00.10:284][473]LightingResults: New page: Lighting Build
+[2017.07.30-22.00.10:313][473]LogAIModule: Creating AISystem for world Untitled_3
+[2017.07.30-22.00.10:317][473]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_3.Untitled_3:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.30-22.00.10:320][473]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.00.10:338][473]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.00.10:383][473]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.85ms to complete.
+[2017.07.30-22.00.10:383][473]LogFileHelpers: Loading map 'Template_Default' took 0.117
+[2017.07.30-22.00.21:164][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.00.21:200][783]LogSavePackage: Save=26.62ms
+[2017.07.30-22.00.21:200][783]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2F9B942CC498B1D56D92432A172316B70.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.00.21:201][783]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.00.21:234][783]LogFileHelpers: Saving map 'Level2' took 0.148
+[2017.07.30-22.00.30:845][920]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-22.00.33:350][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.30-22.00.34:415][290]Cmd: DELETE
+[2017.07.30-22.00.34:415][290]Cmd: ACTOR DELETE
+[2017.07.30-22.00.34:416][290]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.00.34:423][290]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.07.30-22.00.59:976][743]LogTexture:Display: Building textures: Texture2D_4 (G8, 128X128)
+[2017.07.30-22.01.15:274][564]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.01.29:733][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.01.30:698][242]LogSavePackage: Save=950.60ms
+[2017.07.30-22.01.30:698][242]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2E3749A80481E85CC2A561094E485078F.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.01.30:700][242]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.01.33:431][529]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-22.01.33:462][529]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.01.33:462][529]LightingResults: New page: Lighting Build
+[2017.07.30-22.01.33:463][529]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-22.01.33:464][529]MapCheck: New page: Map Check
+[2017.07.30-22.01.33:464][529]LightingResults: New page: Lighting Build
+[2017.07.30-22.01.33:494][529]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.01.33:523][529]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.01.33:569][529]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.817ms to complete.
+[2017.07.30-22.01.33:569][529]LogFileHelpers: Loading map 'Level1' took 0.109
+[2017.07.30-22.01.47:329][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.01.47:926][150]LogSavePackage: Save=586.48ms
+[2017.07.30-22.01.47:926][150]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level17C0A51DB4C9DF6211CF326952B1AAD68.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.30-22.01.47:930][150]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.30-22.01.47:952][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.30-22.01.48:792][150]LogSavePackage: Save=838.52ms
+[2017.07.30-22.01.48:792][150]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData188913AB48A4BB7466A633AEB88465EC.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.30-22.01.48:796][150]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.30-22.01.50:644][367]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-22.01.50:657][367]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.01.50:657][367]LightingResults: New page: Lighting Build
+[2017.07.30-22.01.50:657][367]LoadErrors: New page: Loading map: Level2.umap
+[2017.07.30-22.01.50:660][367]MapCheck: New page: Map Check
+[2017.07.30-22.01.50:660][367]LightingResults: New page: Lighting Build
+[2017.07.30-22.01.50:691][367]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.01.50:717][367]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.01.50:762][367]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.049ms to complete.
+[2017.07.30-22.01.50:762][367]LogFileHelpers: Loading map 'Level2' took 0.106
+[2017.07.30-22.01.58:768][313]LogTexture:Display: Building textures: Texture2D_5 (G8, 128X128)
+[2017.07.30-22.02.34:043][229]Cmd: TRANSACTION UNDO
+[2017.07.30-22.02.34:043][229]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.30-22.02.34:128][229]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.02.34:230][229]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.30-22.02.35:552][387]Cmd: TRANSACTION UNDO
+[2017.07.30-22.02.35:552][387]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.30-22.02.35:584][387]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.02.36:051][439]Cmd: TRANSACTION UNDO
+[2017.07.30-22.02.36:051][439]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.30-22.02.36:100][439]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.02.36:457][477]Cmd: TRANSACTION UNDO
+[2017.07.30-22.02.36:457][477]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.30-22.02.53:023][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.02.53:037][406]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.02.54:086][406]LogSavePackage: Save=1051.74ms
+[2017.07.30-22.02.54:086][406]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level20A2FE512499DDD3A3A29A8B15BD85BCD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.02.54:088][406]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.02.55:660][562]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-22.02.55:691][562]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.02.55:691][562]LightingResults: New page: Lighting Build
+[2017.07.30-22.02.55:691][562]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-22.02.55:692][562]MapCheck: New page: Map Check
+[2017.07.30-22.02.55:692][562]LightingResults: New page: Lighting Build
+[2017.07.30-22.02.55:721][562]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.02.55:748][562]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.02.55:796][562]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.575ms to complete.
+[2017.07.30-22.02.55:796][562]LogFileHelpers: Loading map 'Level1' took 0.108
+[2017.07.30-22.03.04:434][538]LogTexture:Display: Building textures: Texture2D_6 (G8, 128X128)
+[2017.07.30-22.04.01:027][218]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-22.04.02:527][218]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.04.02:528][218]LightingResults: New page: Lighting Build
+[2017.07.30-22.04.02:532][218]LoadErrors: New page: Loading map: Level2.umap
+[2017.07.30-22.04.02:535][218]MapCheck: New page: Map Check
+[2017.07.30-22.04.02:535][218]LightingResults: New page: Lighting Build
+[2017.07.30-22.04.02:563][218]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.04.02:597][218]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.04.02:642][218]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.168ms to complete.
+[2017.07.30-22.04.02:642][218]LogFileHelpers: Loading map 'Level2' took 0.117
+[2017.07.30-22.04.11:419][256]LogTexture:Display: Building textures: Texture2D_7 (G8, 128X128)
+[2017.07.30-22.04.20:481][239]Cmd: TRANSACTION UNDO
+[2017.07.30-22.04.20:481][239]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.07.30-22.04.20:530][239]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.07.22:198][731]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.07.30-22.11.02:655][682]LogSlate: Took 0.022785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.30-22.13.59:260][682]Cmd: TRANSACTION UNDO
+[2017.07.30-22.13.59:260][682]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.07.30-22.13.59:295][682]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.17.17:880][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.17.17:901][258]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.30-22.17.18:981][258]LogSavePackage: Save=1082.70ms
+[2017.07.30-22.17.18:981][258]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2684CA15A4DEA82A1CEF45CA0C5282475.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.17.18:984][258]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.18.00:225][993]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.07.30-22.18.00:282][993]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.07.30-22.18.00:311][993]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.07.30-22.18.00:338][993]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.07.30-22.18.13:098][450]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.07.30-22.18.13:343][462]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.07.30-22.18.15:584][602]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.07.30-22.18.27:589][693]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 128X128)
+[2017.07.30-22.20.23:627][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.20.23:786][ 25]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.07.30-22.20.23:911][ 25]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.07.30-22.20.24:063][ 25]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.07.30-22.20.24:064][ 25]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.07.30-22.20.24:106][ 25]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.07.30-22.20.24:107][ 25]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.07.30-22.20.24:315][ 25]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 128X128)
+[2017.07.30-22.20.24:319][ 25]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.07.30-22.20.24:867][ 25]LogSavePackage: Save=1206.07ms
+[2017.07.30-22.20.24:867][ 25]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level28EC244084E6E339B4D66659F8943F739.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.20.24:875][ 25]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.20.26:490][183]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-22.20.26:535][183]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.20.26:535][183]LightingResults: New page: Lighting Build
+[2017.07.30-22.20.26:536][183]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-22.20.26:537][183]MapCheck: New page: Map Check
+[2017.07.30-22.20.26:537][183]LightingResults: New page: Lighting Build
+[2017.07.30-22.20.26:571][183]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.20.26:604][183]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.20.26:651][183]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.746ms to complete.
+[2017.07.30-22.20.26:651][183]LogFileHelpers: Loading map 'Level1' took 0.119
+[2017.07.30-22.20.34:604][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD03)
+[2017.07.30-22.20.47:707][573]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block36)
+[2017.07.30-22.20.48:493][662]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block42)
+[2017.07.30-22.20.49:209][743]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block43)
+[2017.07.30-22.20.49:930][825]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block44)
+[2017.07.30-22.21.32:237][ 32]Cmd: EDIT COPY
+[2017.07.30-22.21.34:865][191]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-22.21.34:881][191]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.21.34:881][191]LightingResults: New page: Lighting Build
+[2017.07.30-22.21.34:882][191]LoadErrors: New page: Loading map: Level2.umap
+[2017.07.30-22.21.34:887][191]MapCheck: New page: Map Check
+[2017.07.30-22.21.34:887][191]LightingResults: New page: Lighting Build
+[2017.07.30-22.21.34:914][191]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.21.34:939][191]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.21.34:984][191]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.147ms to complete.
+[2017.07.30-22.21.34:984][191]LogFileHelpers: Loading map 'Level2' took 0.104
+[2017.07.30-22.21.36:849][411]Cmd: EDIT PASTE
+[2017.07.30-22.21.45:673][938]Cmd: TRANSACTION UNDO
+[2017.07.30-22.21.45:673][938]LogEditorTransaction: Undo Paste
+[2017.07.30-22.21.48:640][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.21.48:786][282]LogSavePackage: Save=135.68ms
+[2017.07.30-22.21.48:786][282]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2AE2C3B4C419FA0AEEF9B6E929816964E.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.21.48:790][282]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.21.51:461][571]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-22.21.51:486][571]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.21.51:486][571]LightingResults: New page: Lighting Build
+[2017.07.30-22.21.51:487][571]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-22.21.51:488][571]MapCheck: New page: Map Check
+[2017.07.30-22.21.51:488][571]LightingResults: New page: Lighting Build
+[2017.07.30-22.21.51:518][571]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.21.51:549][571]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.21.51:593][571]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.602ms to complete.
+[2017.07.30-22.21.51:593][571]LogFileHelpers: Loading map 'Level1' took 0.108
+[2017.07.30-22.22.37:132][767]Cmd: EDIT COPY
+[2017.07.30-22.22.38:410][871]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-22.22.42:595][871]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.22.42:596][871]LightingResults: New page: Lighting Build
+[2017.07.30-22.22.42:599][871]LoadErrors: New page: Loading map: Level2.umap
+[2017.07.30-22.22.42:604][871]MapCheck: New page: Map Check
+[2017.07.30-22.22.42:604][871]LightingResults: New page: Lighting Build
+[2017.07.30-22.22.42:630][871]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.22.42:658][871]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.22.42:704][871]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.377ms to complete.
+[2017.07.30-22.22.42:704][871]LogFileHelpers: Loading map 'Level2' took 0.110
+[2017.07.30-22.22.44:456][ 32]Cmd: EDIT PASTE
+[2017.07.30-22.24.15:630][840]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-22.24.16:637][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.24.17:196][932]LogSavePackage: Save=538.46ms
+[2017.07.30-22.24.17:196][932]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level22271BFAF40C07E2B94C1BFB14EEDB576.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.24.17:200][932]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.24.18:772][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock10)
+[2017.07.30-22.24.25:326][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock7)
+[2017.07.30-22.24.26:181][910]Cmd: DELETE
+[2017.07.30-22.24.26:181][910]Cmd: ACTOR DELETE
+[2017.07.30-22.24.26:183][910]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.26:192][910]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-22.24.26:869][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock6)
+[2017.07.30-22.24.26:977][997]Cmd: DELETE
+[2017.07.30-22.24.26:977][997]Cmd: ACTOR DELETE
+[2017.07.30-22.24.26:979][997]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.26:988][997]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-22.24.27:417][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock3)
+[2017.07.30-22.24.27:496][ 50]Cmd: DELETE
+[2017.07.30-22.24.27:496][ 50]Cmd: ACTOR DELETE
+[2017.07.30-22.24.27:497][ 50]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.27:505][ 50]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.27:875][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.30-22.24.27:971][ 98]Cmd: DELETE
+[2017.07.30-22.24.27:971][ 98]Cmd: ACTOR DELETE
+[2017.07.30-22.24.27:972][ 98]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.27:980][ 98]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.29:093][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2017.07.30-22.24.29:461][267]Cmd: DELETE
+[2017.07.30-22.24.29:461][267]Cmd: ACTOR DELETE
+[2017.07.30-22.24.29:462][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.29:470][267]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.29:817][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.30-22.24.29:928][314]Cmd: DELETE
+[2017.07.30-22.24.29:928][314]Cmd: ACTOR DELETE
+[2017.07.30-22.24.29:929][314]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.29:938][314]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.30:912][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock9)
+[2017.07.30-22.24.31:187][455]Cmd: DELETE
+[2017.07.30-22.24.31:187][455]Cmd: ACTOR DELETE
+[2017.07.30-22.24.31:189][455]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.31:196][455]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.31:534][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock10)
+[2017.07.30-22.24.31:744][513]Cmd: DELETE
+[2017.07.30-22.24.31:744][513]Cmd: ACTOR DELETE
+[2017.07.30-22.24.31:745][513]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.31:753][513]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.32:522][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock8)
+[2017.07.30-22.24.33:083][665]Cmd: DELETE
+[2017.07.30-22.24.33:083][665]Cmd: ACTOR DELETE
+[2017.07.30-22.24.33:084][665]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.24.33:092][665]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.07.30-22.24.41:991][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.24.42:501][706]LogSavePackage: Save=500.32ms
+[2017.07.30-22.24.42:501][706]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2AC7FE3B84999430ECEEC6189B2CA1329.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.24.42:505][706]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.24.51:201][702]LogAIModule: Creating AISystem for world Level1
+[2017.07.30-22.24.51:230][702]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.24.51:230][702]LightingResults: New page: Lighting Build
+[2017.07.30-22.24.51:231][702]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.30-22.24.51:235][702]MapCheck: New page: Map Check
+[2017.07.30-22.24.51:235][702]LightingResults: New page: Lighting Build
+[2017.07.30-22.24.51:267][702]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.24.51:295][702]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.24.51:344][702]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.359ms to complete.
+[2017.07.30-22.24.51:344][702]LogFileHelpers: Loading map 'Level1' took 0.114
+[2017.07.30-22.25.29:716][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_65)
+[2017.07.30-22.26.05:212][693]Cmd: EDIT COPY
+[2017.07.30-22.26.07:222][874]LogAIModule: Creating AISystem for world Level2
+[2017.07.30-22.26.08:522][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.26.09:178][874]LogSavePackage: Save=638.21ms
+[2017.07.30-22.26.09:178][874]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1632B7B404D6FF4BE468E1A95DCA9EB35.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.30-22.26.09:182][874]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.30-22.26.09:203][874]LogFileHelpers: Saving map 'Level1' took 0.728
+[2017.07.30-22.26.09:204][874]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.30-22.26.09:204][874]LightingResults: New page: Lighting Build
+[2017.07.30-22.26.09:205][874]LoadErrors: New page: Loading map: Level2.umap
+[2017.07.30-22.26.09:210][874]MapCheck: New page: Map Check
+[2017.07.30-22.26.09:210][874]LightingResults: New page: Lighting Build
+[2017.07.30-22.26.09:248][874]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.30-22.26.09:275][874]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.30-22.26.09:319][874]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.898ms to complete.
+[2017.07.30-22.26.09:319][874]LogFileHelpers: Loading map 'Level2' took 0.116
+[2017.07.30-22.26.11:432][121]Cmd: EDIT PASTE
+[2017.07.30-22.30.33:820][994]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-22.30.35:166][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.30.35:885][149]LogSavePackage: Save=698.43ms
+[2017.07.30-22.30.35:886][149]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2753BA74E437D79F1E8A0D68D2874DA45.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.30.35:889][149]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.31.11:028][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2017.07.30-22.31.11:969][246]Cmd: DELETE
+[2017.07.30-22.31.11:969][246]Cmd: ACTOR DELETE
+[2017.07.30-22.31.11:970][246]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-22.31.11:986][246]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.30-22.31.13:745][456]Cmd: TRANSACTION UNDO
+[2017.07.30-22.31.13:745][456]LogEditorTransaction: Undo Delete Actors
+[2017.07.30-22.31.18:249][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2017.07.30-22.31.20:337][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_19)
+[2017.07.30-22.36.11:267][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.36.11:968][646]LogSavePackage: Save=675.41ms
+[2017.07.30-22.36.11:968][646]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level26817A2BF4B165256E97226BE11EFABFB.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.36.11:972][646]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.36.20:496][626]Cmd: DELETE
+[2017.07.30-22.36.20:496][626]Cmd: ACTOR DELETE
+[2017.07.30-22.36.20:498][626]LogEditorActor: Deleted Actor: Brush
+[2017.07.30-22.36.20:706][626]LogEditorActor: Deleted 1 Actors (0.209 secs)
+[2017.07.30-22.37.48:607][591]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.07.30-22.42.14:308][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.42.15:129][973]LogSavePackage: Save=791.41ms
+[2017.07.30-22.42.15:129][973]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level260D811774B0093F86FF90894B78C328C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.42.15:133][973]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.42.20:988][662]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.07.30-22.42.21:029][663]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.30-22.42.52:902][249]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush6)
+[2017.07.30-22.42.55:849][575]Cmd: ACTOR MIRROR Y=-1
+[2017.07.30-22.42.58:964][898]Cmd: TRANSACTION UNDO
+[2017.07.30-22.42.58:964][898]LogEditorTransaction: Undo Mirroring Actors
+[2017.07.30-22.42.58:974][898]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2017.07.30-22.42.58:979][898]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2017.07.30-22.42.58:979][898]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2017.07.30-22.42.58:980][898]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2017.07.30-22.42.58:980][898]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2017.07.30-22.43.00:131][  1]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush6)
+[2017.07.30-22.43.02:396][245]Cmd: ACTOR MIRROR X=-1
+[2017.07.30-22.43.33:563][643]LogGeometryMode:Warning: Unable to find BoxBrush4_1 Brush(s) in new BSP
+[2017.07.30-22.43.33:563][643]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.07.30-22.48.47:818][489]Cmd: TRANSACTION UNDO
+[2017.07.30-22.48.47:818][489]LogEditorTransaction: Undo Move Actors
+[2017.07.30-22.48.47:828][489]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2017.07.30-22.48.47:833][489]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2017.07.30-22.48.47:834][489]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2017.07.30-22.48.47:834][489]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2017.07.30-22.48.47:835][489]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Level2.Level2:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2017.07.30-22.48.47:842][489]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2017.07.30-22.48.47:842][489]LogGeometryMode:Warning: Unable to resolve BoxBrush6 Brush in new BSP, see above
+[2017.07.30-22.48.47:842][489]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.07.30-22.49.30:144][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.49.30:918][264]LogSavePackage: Save=735.18ms
+[2017.07.30-22.49.30:918][264]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2C3751C8143D460B0D9A89BAEC857996D.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.49.30:922][264]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.50.25:851][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.50.26:469][519]LogSavePackage: Save=596.61ms
+[2017.07.30-22.50.26:469][519]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2F898AF6847B6D8E3685285BCE0C327DF.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.50.26:473][519]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-22.53.41:616][894]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-22.53.43:655][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-22.53.44:264][110]LogSavePackage: Save=594.18ms
+[2017.07.30-22.53.44:264][110]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2E7D7BC2A47E765F0794F30873DD560F8.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-22.53.44:272][110]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.23.25:165][843]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.30-23.23.26:845][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.23.27:460][ 38]LogSavePackage: Save=591.98ms
+[2017.07.30-23.23.27:460][ 38]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2D116B86148485BA827BF7885B669DF7B.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.23.27:464][ 38]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.24.52:291][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.24.52:896][174]LogSavePackage: Save=592.07ms
+[2017.07.30-23.24.52:896][174]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level23DC1E0FA47565F5F097859905923AEC5.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.24.52:899][174]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.25.00:817][ 47]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.02:302][178]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.05:068][506]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.06:602][645]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.09:971][ 45]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.17:120][835]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.21:829][327]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.24:896][624]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.07.30-23.25.29:720][132]LogTexture:Display: Building textures: Texture2D_8 (G8, 128X128)
+[2017.07.30-23.26.43:099][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.26.43:211][198]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.07.30-23.26.43:212][198]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.07.30-23.26.43:213][198]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.07.30-23.26.43:214][198]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.07.30-23.26.43:215][198]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.07.30-23.26.43:216][198]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.07.30-23.26.43:217][198]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 128X128)
+[2017.07.30-23.26.43:218][198]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.07.30-23.26.43:740][198]LogSavePackage: Save=620.66ms
+[2017.07.30-23.26.43:740][198]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2CCC2F31540260DDE6F46B788754A8A6C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.26.43:751][198]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.27.56:181][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.27.56:800][812]LogSavePackage: Save=600.84ms
+[2017.07.30-23.27.56:800][812]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level240123A4146D8CFEFB6EF8B9146F1429B.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.27.56:803][812]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.28.35:689][  2]LogActorFactory: Actor Factory created SM_Plains_LargeRock_SpireLOD4
+[2017.07.30-23.28.36:801][116]LogActorFactory: Actor Factory created SM_Plains_LargeRock_SpireLOD4
+[2017.07.30-23.29.11:249][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.29.13:747][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD5)
+[2017.07.30-23.29.16:299][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.29.18:855][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD7)
+[2017.07.30-23.29.23:488][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD8)
+[2017.07.30-23.29.28:258][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.29.29:104][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD8)
+[2017.07.30-23.29.31:629][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.29.37:312][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD10)
+[2017.07.30-23.29.45:964][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.30.12:334][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.30.27:502][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.30.31:631][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD5)
+[2017.07.30-23.30.37:191][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.30.40:114][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD7)
+[2017.07.30-23.30.42:188][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD8)
+[2017.07.30-23.30.50:114][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.30.55:666][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.31.02:166][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD10)
+[2017.07.30-23.31.08:629][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.31.13:539][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.31.21:759][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.31.22:387][686]LogSavePackage: Save=604.43ms
+[2017.07.30-23.31.22:387][686]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level241DD7C20433994811F32AF82046ACCA9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.31.22:390][686]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.31.33:189][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD12)
+[2017.07.30-23.31.36:042][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.31.41:704][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD12)
+[2017.07.30-23.31.43:237][806]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.31.44:035][885]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.31.44:554][934]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD7)
+[2017.07.30-23.31.45:829][ 63]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD5)
+[2017.07.30-23.31.46:664][145]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD8)
+[2017.07.30-23.31.47:231][199]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.31.47:955][270]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD10)
+[2017.07.30-23.31.48:579][330]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.31.59:788][468]Cmd: DELETE
+[2017.07.30-23.31.59:788][468]Cmd: ACTOR DELETE
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:790][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:791][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:791][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.31.59:801][468]LogEditorActor: Deleted 9 Actors (0.012 secs)
+[2017.07.30-23.32.02:952][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD12)
+[2017.07.30-23.32.03:571][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.32.04:235][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD12)
+[2017.07.30-23.32.04:870][951]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2017.07.30-23.32.05:318][996]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD5)
+[2017.07.30-23.32.06:051][ 75]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.32.06:794][154]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD7)
+[2017.07.30-23.32.07:282][203]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD8)
+[2017.07.30-23.32.07:839][261]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.32.09:354][387]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.32.58:191][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD8)
+[2017.07.30-23.32.58:798][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.33.00:318][413]Cmd: DELETE
+[2017.07.30-23.33.00:318][413]Cmd: ACTOR DELETE
+[2017.07.30-23.33.00:320][413]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.33.00:331][413]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.07.30-23.33.02:101][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD5)
+[2017.07.30-23.33.08:042][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2017.07.30-23.33.08:679][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.33.13:157][705]Cmd: DELETE
+[2017.07.30-23.33.13:157][705]Cmd: ACTOR DELETE
+[2017.07.30-23.33.13:159][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.33.13:167][705]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.33.16:265][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD10)
+[2017.07.30-23.33.40:849][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD18)
+[2017.07.30-23.33.41:203][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD19)
+[2017.07.30-23.33.46:320][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD20)
+[2017.07.30-23.33.48:670][454]LogActorFactory: Actor Factory created SM_Plains_LargeRock_SpireLOD4
+[2017.07.30-23.33.49:272][518]LogActorFactory: Actor Factory created SM_Plains_LargeRock_SpireLOD4
+[2017.07.30-23.33.55:602][116]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.30-23.33.57:126][281]Cmd: TRANSACTION UNDO
+[2017.07.30-23.33.57:126][281]LogEditorTransaction: Undo Clicking on Actors
+[2017.07.30-23.33.57:145][281]Cmd: EDIT CUT
+[2017.07.30-23.33.57:149][281]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.33.57:159][281]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.33.57:636][332]Cmd: TRANSACTION UNDO
+[2017.07.30-23.33.57:636][332]LogEditorTransaction: Undo Cut
+[2017.07.30-23.33.59:954][585]Cmd: DELETE
+[2017.07.30-23.33.59:954][585]Cmd: ACTOR DELETE
+[2017.07.30-23.33.59:955][585]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.33.59:964][585]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.34.01:316][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD21)
+[2017.07.30-23.34.05:664][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.34.07:341][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.34.10:959][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD21)
+[2017.07.30-23.34.11:482][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.34.15:143][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD21)
+[2017.07.30-23.34.31:950][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.34.41:264][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.34.47:892][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.35.33:394][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2017.07.30-23.35.35:757][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD6)
+[2017.07.30-23.35.39:484][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD21)
+[2017.07.30-23.35.51:088][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD23)
+[2017.07.30-23.37.57:650][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD24)
+[2017.07.30-23.37.58:826][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD25)
+[2017.07.30-23.37.59:867][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD24)
+[2017.07.30-23.38.04:968][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD25)
+[2017.07.30-23.39.06:535][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD26)
+[2017.07.30-23.39.28:536][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD17)
+[2017.07.30-23.39.30:120][326]Cmd: DELETE
+[2017.07.30-23.39.30:120][326]Cmd: ACTOR DELETE
+[2017.07.30-23.39.30:122][326]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.39.30:132][326]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.07.30-23.39.31:210][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD18)
+[2017.07.30-23.39.36:741][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD14)
+[2017.07.30-23.39.37:599][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD13)
+[2017.07.30-23.39.40:993][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD23)
+[2017.07.30-23.39.41:988][428]Cmd: DELETE
+[2017.07.30-23.39.41:988][428]Cmd: ACTOR DELETE
+[2017.07.30-23.39.41:989][428]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.39.41:998][428]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.39.43:921][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD21)
+[2017.07.30-23.40.23:550][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.40.24:184][871]LogSavePackage: Save=612.84ms
+[2017.07.30-23.40.24:184][871]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level26B4ACFF94EC78801830F39A27EF71186.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.40.24:188][871]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.40.28:689][355]LogActorFactory: Actor Factory created SM_Plains_LargeRock_SpireLOD4
+[2017.07.30-23.40.29:922][494]LogActorFactory: Actor Factory created SM_Plains_LargeRock_SpireLOD4
+[2017.07.30-23.41.31:400][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD19)
+[2017.07.30-23.42.55:876][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD23)
+[2017.07.30-23.43.31:651][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.43.32:278][233]LogSavePackage: Save=612.93ms
+[2017.07.30-23.43.32:278][233]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2F21ED83848B465DFBDA173800DD8CF4A.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.43.32:287][233]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.43.35:212][548]LogActorFactory: Actor Factory created SM_Plains_LargeRock02
+[2017.07.30-23.43.36:014][636]LogActorFactory: Actor Factory created SM_Plains_LargeRock02
+[2017.07.30-23.44.24:574][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.30-23.44.32:498][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock7)
+[2017.07.30-23.44.35:805][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock8)
+[2017.07.30-23.45.20:984][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock26)
+[2017.07.30-23.46.07:669][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock6)
+[2017.07.30-23.46.14:399][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2017.07.30-23.46.16:349][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.30-23.46.18:028][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.30-23.46.19:762][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock35)
+[2017.07.30-23.46.22:636][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2017.07.30-23.46.26:527][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock35)
+[2017.07.30-23.46.28:843][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.30-23.46.33:734][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock6)
+[2017.07.30-23.46.42:062][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2017.07.30-23.46.47:047][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock3)
+[2017.07.30-23.46.53:887][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2017.07.30-23.46.58:514][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock3)
+[2017.07.30-23.48.24:000][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.30-23.48.27:926][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock7)
+[2017.07.30-23.48.52:084][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock30)
+[2017.07.30-23.48.52:859][227]Cmd: DELETE
+[2017.07.30-23.48.52:859][227]Cmd: ACTOR DELETE
+[2017.07.30-23.48.52:861][227]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.52:871][227]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.07.30-23.48.53:367][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock31)
+[2017.07.30-23.48.53:465][291]Cmd: DELETE
+[2017.07.30-23.48.53:465][291]Cmd: ACTOR DELETE
+[2017.07.30-23.48.53:467][291]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.53:475][291]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.53:978][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock32)
+[2017.07.30-23.48.54:093][358]Cmd: DELETE
+[2017.07.30-23.48.54:093][358]Cmd: ACTOR DELETE
+[2017.07.30-23.48.54:095][358]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.54:103][358]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.54:582][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock33)
+[2017.07.30-23.48.54:730][426]Cmd: DELETE
+[2017.07.30-23.48.54:730][426]Cmd: ACTOR DELETE
+[2017.07.30-23.48.54:732][426]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.54:741][426]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.55:345][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock29)
+[2017.07.30-23.48.55:509][511]Cmd: DELETE
+[2017.07.30-23.48.55:509][511]Cmd: ACTOR DELETE
+[2017.07.30-23.48.55:511][511]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.55:519][511]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.55:849][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock28)
+[2017.07.30-23.48.55:930][553]Cmd: DELETE
+[2017.07.30-23.48.55:930][553]Cmd: ACTOR DELETE
+[2017.07.30-23.48.55:931][553]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.55:940][553]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.56:312][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock26)
+[2017.07.30-23.48.56:543][618]Cmd: DELETE
+[2017.07.30-23.48.56:543][618]Cmd: ACTOR DELETE
+[2017.07.30-23.48.56:545][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.56:553][618]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.56:965][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock27)
+[2017.07.30-23.48.57:038][669]Cmd: DELETE
+[2017.07.30-23.48.57:038][669]Cmd: ACTOR DELETE
+[2017.07.30-23.48.57:040][669]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.57:048][669]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.57:477][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock25)
+[2017.07.30-23.48.57:551][722]Cmd: DELETE
+[2017.07.30-23.48.57:551][722]Cmd: ACTOR DELETE
+[2017.07.30-23.48.57:553][722]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.57:563][722]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.48.58:726][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock24)
+[2017.07.30-23.48.58:834][866]Cmd: DELETE
+[2017.07.30-23.48.58:834][866]Cmd: ACTOR DELETE
+[2017.07.30-23.48.58:836][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.58:844][866]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.59:106][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock23)
+[2017.07.30-23.48.59:175][898]Cmd: DELETE
+[2017.07.30-23.48.59:175][898]Cmd: ACTOR DELETE
+[2017.07.30-23.48.59:177][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.59:185][898]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.48.59:700][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock22)
+[2017.07.30-23.48.59:875][973]Cmd: DELETE
+[2017.07.30-23.48.59:875][973]Cmd: ACTOR DELETE
+[2017.07.30-23.48.59:877][973]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.48.59:885][973]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.00:860][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock21)
+[2017.07.30-23.49.00:922][ 88]Cmd: DELETE
+[2017.07.30-23.49.00:922][ 88]Cmd: ACTOR DELETE
+[2017.07.30-23.49.00:924][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.00:934][ 88]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.07.30-23.49.02:172][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock20)
+[2017.07.30-23.49.02:293][241]Cmd: DELETE
+[2017.07.30-23.49.02:293][241]Cmd: ACTOR DELETE
+[2017.07.30-23.49.02:295][241]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.02:305][241]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.07.30-23.49.02:787][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock19)
+[2017.07.30-23.49.02:908][305]Cmd: DELETE
+[2017.07.30-23.49.02:908][305]Cmd: ACTOR DELETE
+[2017.07.30-23.49.02:910][305]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.02:919][305]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.49.03:268][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock18)
+[2017.07.30-23.49.03:382][352]Cmd: DELETE
+[2017.07.30-23.49.03:382][352]Cmd: ACTOR DELETE
+[2017.07.30-23.49.03:383][352]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.03:391][352]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.03:682][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock17)
+[2017.07.30-23.49.03:828][396]Cmd: DELETE
+[2017.07.30-23.49.03:828][396]Cmd: ACTOR DELETE
+[2017.07.30-23.49.03:830][396]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.03:839][396]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.04:187][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock16)
+[2017.07.30-23.49.04:311][444]Cmd: DELETE
+[2017.07.30-23.49.04:311][444]Cmd: ACTOR DELETE
+[2017.07.30-23.49.04:312][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.04:321][444]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.04:636][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock10)
+[2017.07.30-23.49.04:717][483]Cmd: DELETE
+[2017.07.30-23.49.04:717][483]Cmd: ACTOR DELETE
+[2017.07.30-23.49.04:718][483]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.04:727][483]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.05:836][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock9)
+[2017.07.30-23.49.05:920][613]Cmd: DELETE
+[2017.07.30-23.49.05:920][613]Cmd: ACTOR DELETE
+[2017.07.30-23.49.05:922][613]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.05:931][613]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.06:268][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock7)
+[2017.07.30-23.49.06:461][667]Cmd: DELETE
+[2017.07.30-23.49.06:461][667]Cmd: ACTOR DELETE
+[2017.07.30-23.49.06:462][667]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.06:471][667]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.06:925][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock8)
+[2017.07.30-23.49.06:989][720]Cmd: DELETE
+[2017.07.30-23.49.06:989][720]Cmd: ACTOR DELETE
+[2017.07.30-23.49.06:991][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.07:000][720]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.49.08:048][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.30-23.49.08:145][847]Cmd: DELETE
+[2017.07.30-23.49.08:145][847]Cmd: ACTOR DELETE
+[2017.07.30-23.49.08:146][847]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.08:156][847]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.07.30-23.49.08:470][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock3)
+[2017.07.30-23.49.08:605][893]Cmd: DELETE
+[2017.07.30-23.49.08:605][893]Cmd: ACTOR DELETE
+[2017.07.30-23.49.08:607][893]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.08:616][893]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.49.09:081][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2017.07.30-23.49.09:206][956]Cmd: DELETE
+[2017.07.30-23.49.09:206][956]Cmd: ACTOR DELETE
+[2017.07.30-23.49.09:208][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.09:217][956]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.49.10:344][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock35)
+[2017.07.30-23.49.10:488][ 99]Cmd: DELETE
+[2017.07.30-23.49.10:488][ 99]Cmd: ACTOR DELETE
+[2017.07.30-23.49.10:490][ 99]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.10:498][ 99]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.07.30-23.49.10:933][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.30-23.49.11:070][160]Cmd: DELETE
+[2017.07.30-23.49.11:070][160]Cmd: ACTOR DELETE
+[2017.07.30-23.49.11:072][160]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.11:081][160]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.49.11:495][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock6)
+[2017.07.30-23.49.11:828][242]Cmd: DELETE
+[2017.07.30-23.49.11:828][242]Cmd: ACTOR DELETE
+[2017.07.30-23.49.11:830][242]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.30-23.49.11:839][242]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.30-23.49.15:519][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.49.16:152][627]LogSavePackage: Save=613.99ms
+[2017.07.30-23.49.16:153][627]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2CA637ECB4DE23BC74977E3BCB95D3786.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.49.16:156][627]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.56.07:393][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.56.08:054][883]LogSavePackage: Save=638.88ms
+[2017.07.30-23.56.08:054][883]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2DD2763AF4CD46740970246995144752B.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.56.08:058][883]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.30-23.56.56:918][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.30-23.56.57:564][362]LogSavePackage: Save=633.46ms
+[2017.07.30-23.56.57:564][362]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2170A358E4CE849BB2DFD6B905C439EAF.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.30-23.56.57:566][362]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.31-02.02.42:488][186]MapCheck: New page: Map Check
+[2017.07.31-02.02.42:498][186]Cmd: MAP REBUILD ALLVISIBLE
+[2017.07.31-02.02.42:498][186]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.07.31-02.02.42:659][186]LogEditorServer: Cleared 2 NULL BSP materials after rebuild.
+[2017.07.31-02.02.42:711][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.07.31-02.02.42:716][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_9, compiling. 
+[2017.07.31-02.02.42:722][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.07.31-02.02.42:729][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_PLains_Fern01, compiling. 
+[2017.07.31-02.02.42:739][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Floors_Block, compiling. 
+[2017.07.31-02.02.42:747][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Villa_Pillar_1, compiling. 
+[2017.07.31-02.02.42:755][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_FloorTrims, compiling. 
+[2017.07.31-02.02.42:760][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_StoneWall, compiling. 
+[2017.07.31-02.02.42:765][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars, compiling. 
+[2017.07.31-02.02.42:771][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars02, compiling. 
+[2017.07.31-02.02.42:776][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_HardWood_Floor, compiling. 
+[2017.07.31-02.02.42:781][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Decos_Door, compiling. 
+[2017.07.31-02.02.42:787][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TriforceColor, compiling. 
+[2017.07.31-02.02.42:793][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_LargeRock, compiling. 
+[2017.07.31-02.02.42:798][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.07.31-02.02.42:803][186]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_GroundBrick, compiling. 
+[2017.07.31-02.02.43:826][186]TextureStreamingBuild:Display: Compiling optional shaders took 1.120 seconds.
+[2017.07.31-02.02.43:835][186]LogLevel:Display: Export Material TexCoord Scales took 0.009 seconds.
+[2017.07.31-02.02.43:874][186]TextureStreamingBuild:Display: Build Texture Streaming took 0.039 seconds.
+[2017.07.31-02.02.43:889][186]LightingResults: New page: Lighting Build - Jul 30, 2017, 12:02:43 PM
+[2017.07.31-02.02.43:914][186]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.31-02.02.43:916][186]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.31-02.02.43:916][186]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.31-02.02.43:917][186]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.31-02.02.43:917][186]LogSwarmInterface: [TryOpenConnection] Local Process ID is 340
+[2017.07.31-02.02.48:534][186]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.07.31-02.02.48:535][186]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.31-02.02.48:535][186]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.31-02.02.48:535][186]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.31-02.02.48:535][186]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.31-02.02.48:535][186]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.31-02.02.48:672][186]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.07.31-02.02.48:672][186]MapCheck: New page: Level2 - Jul 30, 2017, 12:02:48 PM
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD4_2 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD5 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD7 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD8 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD10 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD11 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD12 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD13_28 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD14_29 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD15_30 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD16_31 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD18_33 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD19_34 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:673][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD20_35 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD6_39 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD9_41 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD21_43 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD22 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD24 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD25 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD26 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD27 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD17_55 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD23_57 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD28 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD29 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:674][186]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD30 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.02.48:676][186]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.07.31-02.02.48:723][186]MapCheck: Info Map check complete: 1 Error(s), 27 Warning(s), took 50.742ms to complete.
+[2017.07.31-02.02.48:745][186]LogEditorBuildUtils: Build time 0:06
+[2017.07.31-02.02.49:032][194]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_GroundBrick, compiling. 
+[2017.07.31-02.02.49:037][194]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_GroundBrick, compiling. 
+[2017.07.31-02.03.12:992][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.31-02.03.13:943][451]LogSavePackage: Save=937.85ms
+[2017.07.31-02.03.13:943][451]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_Auto14BE1F06C4332579ACD9A0B8940236681.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto1.umap'
+[2017.07.31-02.03.13:946][451]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto1.umap
+[2017.07.31-02.03.13:949][451]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.970
+[2017.07.31-02.03.13:949][451]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.970
+[2017.07.31-02.03.20:141][ 63]Job is a success!
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 512X512)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 512X512)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 1024X1024)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 64X64)
+[2017.07.31-02.03.22:192][ 64]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 64X64)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 512X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 512X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 512X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 64X64)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 64X64)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 128X128)
+[2017.07.31-02.03.22:392][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2017.07.31-02.03.22:415][ 64]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X512)
+[2017.07.31-02.03.22:447][ 64]Lightmass on DESKTOP-SSL098G: 31.9 sec total, 319 ms importing, 434 ms setup, 3.12 sec photons, 28.0 sec processing, 0 ms extra exporting [684/684 mappings]. Threads: 3:15 min total, 2:31 min processing.
+[2017.07.31-02.03.22:481][ 64]LogStaticLightingSystem: Illumination: 38.5 sec (1.73 sec encoding lightmaps, 218 ms encoding shadowmaps)
+[2017.07.31-02.03.22:481][ 64]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (8.7 MB streaming, 2.0 MB non-streaming), 42 textures
+[2017.07.31-02.03.22:481][ 64]LogStaticLightingSystem: Shadowmap texture memory: 1.5 MB (1.2 MB streaming, 0.3 MB non-streaming), 20 textures
+[2017.07.31-02.03.22:552][ 64]DumpUnbuiltLightIteractions
+[2017.07.31-02.03.22:552][ 64]Lights with unbuilt interactions: 0
+[2017.07.31-02.03.22:552][ 64]
+[2017.07.31-02.03.22:552][ 64]Primitives with unbuilt interactions: 0
+[2017.07.31-02.03.22:554][ 65]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.31-02.03.22:554][ 65]MapCheck: New page: Level2 - Jul 30, 2017, 12:03:22 PM
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD4_2 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD5 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD7 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD8 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD10 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD11 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD12 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD13_28 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD14_29 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD15_30 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD16_31 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:555][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD18_33 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD19_34 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD20_35 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD6_39 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD9_41 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD21_43 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD22 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD24 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD25 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD26 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD27 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD17_55 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD23_57 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD28 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD29 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:556][ 65]MapCheck:Warning: Warning SM_Plains_LargeRock_SpireLOD30 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2017.07.31-02.03.22:603][ 65]MapCheck: Info Map check complete: 0 Error(s), 27 Warning(s), took 48.622ms to complete.
+[2017.07.31-02.03.25:947][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.31-02.03.26:551][445]LogSavePackage: Save=592.54ms
+[2017.07.31-02.03.26:551][445]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2C8DD62B74E6EAE1D620083B8C29A5F50.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.31-02.03.26:555][445]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.31-02.03.26:576][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.07.31-02.03.27:113][445]LogSavePackage: Save=535.18ms
+[2017.07.31-02.03.27:113][445]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltDataFE717EE940BAE1D121CBEA8669EEC79C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.07.31-02.03.27:115][445]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.07.31-02.03.36:235][352]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:150).
+[2017.07.31-02.05.10:990][460]LogSavePackage: Save=50.98ms
+[2017.07.31-02.05.10:990][460]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/SM_Plains_LargeRock02150C079849F4FF947E71D3B0ABB3103F.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock02.uasset'
+[2017.07.31-02.05.10:995][460]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock02.uasset
+[2017.07.31-02.05.14:819][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD17)
+[2017.07.31-02.05.56:980][639]LogSavePackage: Save=13.54ms
+[2017.07.31-02.05.56:980][639]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/SM_Plains_LargeRock_SpireLOD51740D2E48834650648471BA6D25559D.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD.uasset'
+[2017.07.31-02.05.56:984][639]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD.uasset
+[2017.07.31-02.06.00:356][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.31-02.06.00:964][  6]LogSavePackage: Save=593.54ms
+[2017.07.31-02.06.00:965][  6]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2467D554C4424C93D193D1DA11087A5C8.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.31-02.06.00:967][  6]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.31-02.06.00:988][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.07.31-02.06.01:538][  6]LogSavePackage: Save=529.96ms
+[2017.07.31-02.06.01:538][  6]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData4EFFCF9D4CD33355635019A52985DE4A.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.07.31-02.06.01:541][  6]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.07.31-02.06.32:365][418]LogActorFactory: Actor Factory created SM_Plains_Vine01
+[2017.07.31-02.06.33:735][559]LogActorFactory: Actor Factory created SM_Plains_Vine01
+[2017.07.31-02.07.03:167][694]LogActorFactory: Actor Factory created SM_Plains_Vine02
+[2017.07.31-02.07.03:777][759]LogActorFactory: Actor Factory created SM_Plains_Vine02
+[2017.07.31-02.07.28:579][550]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2017.07.31-02.07.30:112][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine02)
+[2017.07.31-02.07.43:629][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Archway_1)
+[2017.07.31-02.07.48:445][866]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.31-02.07.49:233][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.07.31-02.07.51:377][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine02)
+[2017.07.31-02.08.32:417][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine01)
+[2017.07.31-02.09.26:524][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine01)
+[2017.07.31-02.09.32:447][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine2)
+[2017.07.31-02.09.59:088][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2017.07.31-02.10.00:060][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine02)
+[2017.07.31-02.10.30:757][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_10)
+[2017.07.31-02.10.31:805][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine02)
+[2017.07.31-02.10.37:765][151]LogActorFactory: Actor Factory created SM_Plains_Vine01
+[2017.07.31-02.10.41:379][570]LogActorFactory: Actor Factory created SM_Plains_Vine01
+[2017.07.31-02.11.22:483][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine7)
+[2017.07.31-02.11.53:565][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine02)
+[2017.07.31-02.12.08:150][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2017.07.31-02.12.09:052][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine8)
+[2017.07.31-02.12.38:458][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine11)
+[2017.07.31-02.12.44:016][536]Cmd: DELETE
+[2017.07.31-02.12.44:016][536]Cmd: ACTOR DELETE
+[2017.07.31-02.12.44:018][536]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.31-02.12.44:027][536]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.31-02.12.45:728][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.07.31-02.12.46:336][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine12)
+[2017.07.31-02.13.44:285][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine12)
+[2017.07.31-02.13.45:933][692]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine18)
+[2017.07.31-02.13.47:465][870]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine13)
+[2017.07.31-02.13.48:604][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine17)
+[2017.07.31-02.13.49:841][144]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine14)
+[2017.07.31-02.13.51:147][295]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine16)
+[2017.07.31-02.13.53:202][534]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine15)
+[2017.07.31-02.14.47:345][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_18)
+[2017.07.31-02.14.48:091][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_18)
+[2017.07.31-02.14.48:563][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine7)
+[2017.07.31-02.14.54:259][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Column_Large_01)
+[2017.07.31-02.14.55:422][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine11)
+[2017.07.31-02.15.54:674][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2017.07.31-02.15.55:295][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2017.07.31-02.15.55:759][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2017.07.31-02.15.56:241][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2017.07.31-02.15.56:704][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_26)
+[2017.07.31-02.15.57:177][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine8)
+[2017.07.31-02.17.20:258][587]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine30)
+[2017.07.31-02.17.21:100][682]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine29)
+[2017.07.31-02.17.22:282][818]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine28)
+[2017.07.31-02.17.23:447][952]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine27)
+[2017.07.31-02.17.28:852][520]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Vine35)
+[2017.07.31-02.17.31:258][758]Cmd: ACTOR MIRROR Y=-1
+[2017.07.31-02.17.32:777][937]Cmd: TRANSACTION UNDO
+[2017.07.31-02.17.32:777][937]LogEditorTransaction: Undo Mirroring Actors
+[2017.07.31-02.17.34:195][ 96]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_21)
+[2017.07.31-02.17.36:735][346]Cmd: ACTOR MIRROR X=-1
+[2017.07.31-02.17.38:315][523]Cmd: TRANSACTION UNDO
+[2017.07.31-02.17.38:315][523]LogEditorTransaction: Undo Mirroring Actors
+[2017.07.31-02.17.42:362][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine36)
+[2017.07.31-02.17.44:317][133]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine35)
+[2017.07.31-02.17.46:116][343]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine34)
+[2017.07.31-02.17.47:281][477]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine33)
+[2017.07.31-02.17.48:442][610]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_81)
+[2017.07.31-02.17.52:165][ 14]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine32)
+[2017.07.31-02.17.58:738][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Vine32)
+[2017.07.31-02.18.00:351][895]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine33)
+[2017.07.31-02.18.01:544][ 32]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine34)
+[2017.07.31-02.18.02:888][187]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Wall_Straight_21)
+[2017.07.31-02.18.11:758][210]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine35)
+[2017.07.31-02.18.17:316][856]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Vine36)
+[2017.07.31-02.18.20:334][210]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Vine35)
+[2017.07.31-02.18.23:500][546]Cmd: ACTOR MIRROR X=-1
+[2017.07.31-02.18.47:117][272]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.31-02.18.47:810][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.31-02.18.48:487][342]LogSavePackage: Save=655.18ms
+[2017.07.31-02.18.48:487][342]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2FEF90D024C9BD4B50B549C803B38BAC6.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.31-02.18.48:492][342]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.31-02.18.48:524][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.07.31-02.18.49:158][342]LogSavePackage: Save=615.50ms
+[2017.07.31-02.18.49:158][342]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData01D9600C464E72CD0A52DC93D5519164.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.07.31-02.18.49:160][342]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.07.31-02.22.48:144][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.31-02.22.48:807][142]LogSavePackage: Save=648.03ms
+[2017.07.31-02.22.48:807][142]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2A4E951F148FA0FB30C4F63B3C11818B0.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.07.31-02.22.48:816][142]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.07.31-02.22.48:845][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.07.31-02.22.49:388][142]LogSavePackage: Save=540.13ms
+[2017.07.31-02.22.49:388][142]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltDataA4A4C9314D34781E41C60583DE495C34.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.07.31-02.22.49:390][142]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.07.31-02.26.26:221][196]Cmd: QUIT_EDITOR
+[2017.07.31-02.26.26:233][196]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.31-02.26.26:246][196]LogExit: Preparing to exit.
+[2017.07.31-02.26.27:517][196]LogExit: Editor shut down
+[2017.07.31-02.26.27:524][196]LogExit: Transaction tracking system shut down
+[2017.07.31-02.26.27:649][196]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.31-02.26.27:649][196]LogExit: Object subsystem successfully closed.
+[2017.07.31-02.26.27:676][196]LogD3D11RHI: Shutdown
+[2017.07.31-02.26.27:676][196]LogD3D11RHI: CleanupD3DDevice
+[2017.07.31-02.26.28:316][196]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module NewLevelDialog (528)
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (526)
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.31-02.26.28:323][196]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.31-02.26.28:323][196]LogDirectoryWatcher: A directory notification for 'A:/Unreal Engine Things/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.31-02.26.28:324][196]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Collections/' was aborted.
+[2017.07.31-02.26.28:324][196]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Developers/antma/Collections/' was aborted.
+[2017.07.31-02.26.28:324][196]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Collections/' was aborted.
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.31-02.26.28:324][196]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.31-02.26.28:325][196]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.31-02.26.28:527][196]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.31-02.26.28:528][196]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.31-02.26.28:528][196]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.31-02.26.28:528][196]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.31-02.26.28:528][196]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.31-02.26.28:528][196]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.31-02.26.28:545][196]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.31-02.26.28:545][196]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.31-02.26.28:609][196]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.31-02.26.28:612][196]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.31-02.26.28:613][196]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.31-02.26.28:714][196]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.31-02.26.28:814][196]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.31-02.26.28:815][196]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.31-02.26.28:815][196]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.31-02.26.28:815][196]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.31-02.26.28:815][196]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.31-02.26.28:815][196]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.31-02.26.28:820][196]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.31-02.26.28:822][196]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.31-02.26.28:822][196]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.31-02.26.28:822][196]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.31-02.26.28:822][196]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.31-02.26.28:822][196]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.31-02.26.28:822][196]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.31-02.26.29:010][196]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.31-02.26.29:010][196]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/' was aborted.
+[2017.07.31-02.26.29:010][196]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.31-02.26.29:010][196]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.31-02.26.29:013][196]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.31-02.26.29:014][196]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.31-02.26.29:102][196]LogDerivedDataCache: Shutdown
+[2017.07.31-02.26.29:102][196]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.31-02.26.29:102][196]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.31-02.26.29:102][196]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.31-02.26.29:110][196]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.31-02.26.29:110][196]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.31-02.26.29:146][196]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.31-02.26.29:146][196]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.31-02.26.29:146][196]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.31-02.26.29:146][196]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB64AB2A7-43C4-B9EF-CDE0-189AB169AAD1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=520f5a664a9a65cee5908a8fb9436eea%7C69a6443c127b4b76b30856c672c512b8%7Ce6cd1087-9776-45de-91c8-004f73fe86c1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.31-02.26.29:170][196]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.31-02.26.29:172][196]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.31-02.26.29:174][196]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.31-02.26.29:176][196]LogExit: Exiting.
+[2017.07.31-02.26.29:184][196]Log file closed, 07/30/17 19:26:29

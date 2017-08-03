@@ -1,0 +1,763 @@
+﻿Log file open, 07/29/17 14:18:15
+LogInit:Display: Running engine for game: Survival_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-625960865) SRandInit(-625960865).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.142468
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: A:/Unreal Engine Things/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.29-21.18.16:511][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-21.18.16:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.29-21.18.16:641][  0]LogInit: Computer: DESKTOP-SSL098G
+[2017.07.29-21.18.16:641][  0]LogInit: User: antma
+[2017.07.29-21.18.16:641][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.29-21.18.16:641][  0]LogInit: High frequency timer resolution =3.417982 MHz
+[2017.07.29-21.18.16:642][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.29-21.18.16:642][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.29-21.18.16:642][  0]LogMemory: Process Physical Memory: 273.66 MB used, 273.66 MB peak
+[2017.07.29-21.18.16:642][  0]LogMemory: Process Virtual Memory: 260.73 MB used, 260.73 MB peak
+[2017.07.29-21.18.16:642][  0]LogMemory: Physical Memory: 3741.79 MB used,  12570.21 MB free, 16312.00 MB total
+[2017.07.29-21.18.16:642][  0]LogMemory: Virtual Memory: 638.48 MB used,  12570.21 MB free, 134217728.00 MB total
+[2017.07.29-21.18.17:357][  0]LogInit: Using OS detected language (en-US).
+[2017.07.29-21.18.17:357][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.29-21.18.17:508][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.29-21.18.20:770][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.29-21.18.20:816][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.29-21.18.20:816][  0]LogD3D11RHI:       8085/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.29-21.18.20:817][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.29-21.18.20:817][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.29-21.18.20:817][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.29-21.18.20:831][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.29-21.18.20:831][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.29-21.18.20:831][  0]LogWindows: EnumDisplayDevices:
+[2017.07.29-21.18.20:831][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.29-21.18.20:831][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.29-21.18.20:831][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.29-21.18.20:831][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.29-21.18.20:831][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.29-21.18.20:831][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.29-21.18.20:832][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.07.29-21.18.20:832][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.07.29-21.18.20:832][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.29-21.18.20:864][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.29-21.18.21:100][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.29-21.18.21:224][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Intermediate/Shaders/WorkingDirectory/2652/).
+[2017.07.29-21.18.21:224][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/antma/AppData/Local/Temp/UnrealShaderWorkingDir/E00C8A9740D1CD96C23B68BD45777B8C/'.
+[2017.07.29-21.18.21:227][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.29-21.18.24:404][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.29-21.18.24:436][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.29-21.18.24:470][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.29-21.18.24:502][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.29-21.18.24:577][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.29-21.18.24:609][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.29-21.18.24:642][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.29-21.18.24:675][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.29-21.18.24:702][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.29-21.18.24:768][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.29-21.18.24:800][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.29-21.18.24:833][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.29-21.18.24:865][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.29-21.18.24:896][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.29-21.18.24:929][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.29-21.18.24:993][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.29-21.18.24:993][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.29-21.18.25:089][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.29-21.18.25:216][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.29-21.18.25:237][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.29-21.18.25:269][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.29-21.18.25:301][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.29-21.18.25:334][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.29-21.18.25:370][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.29-21.18.25:370][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.29-21.18.26:707][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.29-21.18.27:743][  0]LogDerivedDataCache: Loaded boot cache 1.04s 90MB C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-21.18.27:744][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.29-21.18.27:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.29-21.18.27:744][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.29-21.18.27:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.29-21.18.27:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.29-21.18.27:852][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.29-21.18.27:903][  0]LogDerivedDataCache: Using Local data cache path C:/Users/antma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.29-21.18.27:945][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.29-21.18.28:017][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.29-21.18.28:116][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-21.18.28:117][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-21.18.35:325][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-21.18.36:302][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.29-21.18.36:749][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.29-21.18.36:876][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.29-21.18.36:927][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.29-21.18.36:927][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.29-21.18.36:927][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.29-21.18.40:769][  0]LogNetVersion: Survival_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 845712781)
+[2017.07.29-21.18.41:053][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.07.29-21.18.41:337][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.210543 seconds
+[2017.07.29-21.18.41:342][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.29-21.18.41:342][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.29-21.18.41:342][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.29-21.18.41:396][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.29-21.18.48:892][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.29-21.18.48:927][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.29-21.18.49:945][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.29-21.18.50:492][  0]SourceControl: Info Source control is disabled
+[2017.07.29-21.18.51:233][  0]SourceControl: Info Source control is disabled
+[2017.07.29-21.18.51:297][  0]SourceControl: Info Source control is disabled
+[2017.07.29-21.18.51:331][  0]SourceControl: Info Source control is disabled
+[2017.07.29-21.18.52:277][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.29-21.18.53:132][  0]LogEngine: Initializing Engine...
+[2017.07.29-21.18.53:144][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.29-21.18.53:698][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.29-21.18.53:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.018 s
+[2017.07.29-21.18.54:028][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.29-21.18.54:105][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.29-21.18.54:116][  0]LogInit: FAudioDevice initialized.
+[2017.07.29-21.18.54:169][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-21.18.54:180][  0]LogInit: Texture streaming: Enabled
+[2017.07.29-21.18.54:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.29-21.18.54:760][  0]LogInit: Transaction tracking system initialized
+[2017.07.29-21.18.55:312][  0]BlueprintLog: New page: Editor Load
+[2017.07.29-21.18.56:618][  0]LocalizationService: Info Localization service is disabled
+[2017.07.29-21.18.57:470][  0]LogConsoleResponse:Display: 
+[2017.07.29-21.18.59:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/' took 0.02s
+[2017.07.29-21.18.59:768][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.29-21.18.59:768][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.29-21.19.01:692][  0]SourceControl: Info Source control is disabled
+[2017.07.29-21.19.01:731][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.29-21.19.01:749][  0]LightingResults: New page: Lighting Build
+[2017.07.29-21.19.01:890][  0]MapCheck: New page: Map Check
+[2017.07.29-21.19.01:890][  0]LightingResults: New page: Lighting Build
+[2017.07.29-21.19.02:841][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.29-21.19.02:850][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.29-21.19.03:185][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.29-21.19.03:236][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.29-21.19.03:284][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.055ms to complete.
+[2017.07.29-21.19.03:284][  0]LogFileHelpers: Loading map 'Template_Default' took 1.574
+[2017.07.29-21.19.04:293][  0]LogCollectionManager: Loaded 0 collections in 0.000802 seconds
+[2017.07.29-21.19.04:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Collections/' took 0.01s
+[2017.07.29-21.19.04:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Developers/antma/Collections/' took 0.01s
+[2017.07.29-21.19.04:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Collections/' took 0.01s
+[2017.07.29-21.19.04:451][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.29-21.19.04:461][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2017.07.29-21.19.04:526][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.29-21.19.05:160][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.29-21.19.05:248][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.29-21.19.05:499][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.29-21.19.05:582][  0]LogSlate: Took 0.016517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-21.19.05:600][  0]LogSlate: Took 0.011641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.29-21.19.05:631][  0]LogSlate: Took 0.009557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.29-21.19.05:930][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2017.07.29-21.19.06:176][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.29-21.19.06:263][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.29-21.19.06:263][  0]LogLoad: (Engine Initialization) Total time: 56.39 seconds
+[2017.07.29-21.19.06:263][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.51 seconds
+[2017.07.29-21.19.06:263][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.29-21.19.06:263][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.29-21.19.06:288][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-21.19.06:288][  0]LogOcInput: OculusInput pre-init called
+[2017.07.29-21.19.06:288][  0]LogHMD: Starting GearVRController plugin
+[2017.07.29-21.19.06:313][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.29-21.19.06:482][  1]LogAssetRegistry: Asset discovery search completed in 25.4506 seconds
+[2017.07.29-21.19.06:484][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.29-21.19.06:484][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.07.29-21.19.06:550][  1]LogSlate: Took 0.010280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-21.19.13:624][627]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.29-21.19.13:628][627]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-21.19.13:641][627]LightingResults: New page: Lighting Build
+[2017.07.29-21.19.13:641][627]LoadErrors: New page: Loading map: Level1.umap
+[2017.07.29-21.19.13:654][627]MapCheck: New page: Map Check
+[2017.07.29-21.19.13:654][627]LightingResults: New page: Lighting Build
+[2017.07.29-21.19.14:541][627]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-21.19.32:823][627]LogAIModule: Creating AISystem for world Level1
+[2017.07.29-21.19.35:069][627]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.29-21.19.35:106][627]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.29-21.19.35:145][627]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.393ms to complete.
+[2017.07.29-21.19.35:145][627]LogFileHelpers: Loading map 'Level1' took 21.527
+[2017.07.29-21.32.32:055][428]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.07.29-21.39.39:777][296]Cmd: ACTOR MIRROR Y=-1
+[2017.07.29-21.41.01:118][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.29-21.41.01:830][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-21.41.02:815][127]LogSavePackage: Save=749.36ms
+[2017.07.29-21.41.02:815][127]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level11609185C446BD2ED34246ABC7A3C8AF9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-21.41.02:819][127]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-21.41.02:848][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-21.41.04:409][127]LogSavePackage: Save=948.67ms
+[2017.07.29-21.41.04:409][127]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData7821913A4A068E3D24A17088C204D5F9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-21.41.04:415][127]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-21.41.07:130][448]MapCheck: New page: Map Check
+[2017.07.29-21.41.07:143][448]Cmd: MAP REBUILD ALLVISIBLE
+[2017.07.29-21.41.07:143][448]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.07.29-21.41.07:797][448]LogEditorServer: Cleared 1 NULL BSP materials after rebuild.
+[2017.07.29-21.41.07:919][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.07.29-21.41.07:939][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.07.29-21.41.07:968][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.07.29-21.41.07:974][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_PLains_Fern01, compiling. 
+[2017.07.29-21.41.07:980][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Floors_Block, compiling. 
+[2017.07.29-21.41.08:006][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Villa_Pillar_1, compiling. 
+[2017.07.29-21.41.08:067][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_FloorTrims, compiling. 
+[2017.07.29-21.41.08:125][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_StoneWall, compiling. 
+[2017.07.29-21.41.08:155][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars, compiling. 
+[2017.07.29-21.41.08:175][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars02, compiling. 
+[2017.07.29-21.41.08:214][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_HardWood_Floor, compiling. 
+[2017.07.29-21.41.08:219][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.07.29-21.41.08:224][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Decos_Door, compiling. 
+[2017.07.29-21.41.08:230][448]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TriforceColor, compiling. 
+[2017.07.29-21.41.09:636][448]TextureStreamingBuild:Display: Compiling optional shaders took 1.741 seconds.
+[2017.07.29-21.41.09:724][448]LogLevel:Display: Export Material TexCoord Scales took 0.087 seconds.
+[2017.07.29-21.41.09:773][448]TextureStreamingBuild:Display: Build Texture Streaming took 0.049 seconds.
+[2017.07.29-21.41.09:808][448]LightingResults: New page: Lighting Build - Jul 29, 2017, 7:41:09 AM
+[2017.07.29-21.41.10:033][448]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.29-21.41.10:170][448]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.29-21.41.10:352][448]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.29-21.41.17:237][448]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.07.29-21.41.17:329][448]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.07.29-21.41.22:677][448]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.29-21.41.22:677][448]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2652
+[2017.07.29-21.41.27:788][448]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.29-21.41.27:788][448]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.29-21.41.27:788][448]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.29-21.41.27:788][448]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.29-21.41.27:788][448]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.29-21.41.28:552][448]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.07.29-21.41.28:552][448]MapCheck: New page: Level1 - Jul 29, 2017, 7:41:28 AM
+[2017.07.29-21.41.28:605][448]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.27ms to complete.
+[2017.07.29-21.41.28:628][448]LogEditorBuildUtils: Build time 0:21
+[2017.07.29-21.42.13:080][674]Job is a success!
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 1024X1024)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 64X64)
+[2017.07.29-21.42.15:337][676]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 64X64)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8, 32X32)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 128X128)
+[2017.07.29-21.42.18:337][676]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8, 64X64)
+[2017.07.29-21.42.18:461][676]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 512X512)
+[2017.07.29-21.42.18:461][676]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 1024X1024)
+[2017.07.29-21.42.24:765][676]Lightmass on DESKTOP-SSL098G: 48.1 sec total, 2.13 sec importing, 410 ms setup, 6.86 sec photons, 38.2 sec processing, 0 ms extra exporting [650/650 mappings]. Threads: 4:27 min total, 3:09 min processing.
+[2017.07.29-21.42.25:030][676]LogStaticLightingSystem: Illumination: 1:15 min (1.62 sec encoding lightmaps, 3.12 sec encoding shadowmaps)
+[2017.07.29-21.42.25:030][676]LogStaticLightingSystem: Lightmap texture memory:  9.8 MB (7.8 MB streaming, 2.0 MB non-streaming), 38 textures
+[2017.07.29-21.42.25:030][676]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (1.7 MB streaming, 0.3 MB non-streaming), 19 textures
+[2017.07.29-21.42.25:826][676]DumpUnbuiltLightIteractions
+[2017.07.29-21.42.25:826][676]Lights with unbuilt interactions: 0
+[2017.07.29-21.42.25:826][676]
+[2017.07.29-21.42.25:826][676]Primitives with unbuilt interactions: 0
+[2017.07.29-21.42.25:832][677]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.29-21.42.25:833][677]MapCheck: New page: Level1 - Jul 29, 2017, 7:42:25 AM
+[2017.07.29-21.42.25:877][677]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.423ms to complete.
+[2017.07.29-21.42.27:447][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-21.42.28:030][852]LogSavePackage: Save=571.02ms
+[2017.07.29-21.42.28:030][852]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1581932AE40A0801CFAE6B3B79780E8C5.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-21.42.28:035][852]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-21.42.28:067][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-21.42.28:827][852]LogSavePackage: Save=756.41ms
+[2017.07.29-21.42.28:827][852]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData204F48F64C74848D62E894992690F833.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-21.42.28:835][852]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-22.49.24:254][854]LogActorFactory: Actor Factory created SM_Plains_LargeRock02
+[2017.07.29-22.49.24:997][937]LogActorFactory: Actor Factory created SM_Plains_LargeRock02
+[2017.07.29-22.49.48:109][477]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.07.29-23.05.56:148][675]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.07.29-23.06.00:801][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.06.01:103][189]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.07.29-23.06.01:105][189]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2017.07.29-23.06.01:134][189]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2017.07.29-23.06.01:136][189]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.07.29-23.06.01:138][189]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.07.29-23.06.01:139][189]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.07.29-23.06.01:140][189]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.07.29-23.06.01:141][189]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.07.29-23.06.01:142][189]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.07.29-23.06.01:682][189]LogSavePackage: Save=682.49ms
+[2017.07.29-23.06.01:682][189]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level154EB2EAB4408E610B338778C7A9CD5F5.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.06.01:687][189]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.06.01:732][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.06.02:602][189]LogSavePackage: Save=834.68ms
+[2017.07.29-23.06.02:602][189]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltDataEF3EAE9946C062AFB0B6DBBE59693CDB.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.06.02:606][189]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.06.10:519][679]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.07.29-23.07.57:971][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.07.58:181][316]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.07.29-23.07.58:189][316]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2017.07.29-23.07.58:203][316]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2017.07.29-23.07.58:204][316]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.07.29-23.07.58:207][316]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.07.29-23.07.58:208][316]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.07.29-23.07.58:209][316]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.07.29-23.07.58:210][316]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.07.29-23.07.58:211][316]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.07.29-23.07.58:716][316]LogSavePackage: Save=618.80ms
+[2017.07.29-23.07.58:717][316]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1681FF40B472AAB88DD898987AE4A1410.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.07.58:720][316]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.07.58:747][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.07.59:547][316]LogSavePackage: Save=797.49ms
+[2017.07.29-23.07.59:547][316]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltDataB34D96EE49AA5E67C529AE93D813CDFC.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.07.59:551][316]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.09.51:251][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.09.51:360][313]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 128X128)
+[2017.07.29-23.09.51:361][313]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2017.07.29-23.09.51:373][313]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2017.07.29-23.09.51:374][313]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 128X128)
+[2017.07.29-23.09.51:375][313]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 128X128)
+[2017.07.29-23.09.51:376][313]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 128X128)
+[2017.07.29-23.09.51:377][313]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X128)
+[2017.07.29-23.09.51:378][313]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2017.07.29-23.09.51:379][313]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
+[2017.07.29-23.09.51:885][313]LogSavePackage: Save=606.76ms
+[2017.07.29-23.09.51:885][313]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1CBD1DE9543EBD6396585EDB8D67CC9FE.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.09.51:887][313]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.09.51:924][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.09.52:695][313]LogSavePackage: Save=768.62ms
+[2017.07.29-23.09.52:695][313]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData543B48084B25C6F00CF01AA861CBBE4C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.09.52:699][313]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.10.07:223][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.29-23.10.17:493][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.10.18:080][180]LogSavePackage: Save=567.74ms
+[2017.07.29-23.10.18:080][180]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1167B01084CED18BCA49377868F7CDB91.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.10.18:083][180]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.10.18:104][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.10.18:869][180]LogSavePackage: Save=761.93ms
+[2017.07.29-23.10.18:869][180]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData2B96475B415DFC66743A87962B47E19E.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.10.18:872][180]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.12.05:640][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.29-23.12.18:677][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.29-23.12.35:145][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.29-23.12.49:223][559]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.07.29-23.12.49:856][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock10)
+[2017.07.29-23.12.58:346][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock8)
+[2017.07.29-23.13.03:763][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.29-23.13.04:447][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock9)
+[2017.07.29-23.13.10:428][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock5)
+[2017.07.29-23.13.19:063][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.29-23.13.22:293][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock3)
+[2017.07.29-23.13.30:128][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock6)
+[2017.07.29-23.13.37:077][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock7)
+[2017.07.29-23.13.46:208][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock8)
+[2017.07.29-23.13.52:840][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.13.53:442][482]LogSavePackage: Save=579.37ms
+[2017.07.29-23.13.53:442][482]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level11FB00E06478980EF3C045B9DFC83256E.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.13.53:446][482]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.13.53:475][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.13.54:256][482]LogSavePackage: Save=755.74ms
+[2017.07.29-23.13.54:256][482]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData4C6F462042C0D9493FE84985F9D86F57.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.13.54:260][482]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.21.29:950][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.21.30:556][387]LogSavePackage: Save=583.08ms
+[2017.07.29-23.21.30:556][387]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level15F9B76084D1B36EC3106E9AA15CD33B5.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.21.30:558][387]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.21.30:587][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.21.31:373][387]LogSavePackage: Save=761.75ms
+[2017.07.29-23.21.31:373][387]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltDataCBD3B9C3480F58760C9F83BA935C7284.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.21.31:378][387]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.21.31:682][421]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_LargeRock02)
+[2017.07.29-23.21.41:048][287]LogActorFactory: Actor Factory created SM_Plains_GroundBrick01
+[2017.07.29-23.21.42:912][452]LogActorFactory: Actor Factory created SM_Plains_GroundBrick01
+[2017.07.29-23.21.50:798][280]Cmd: DELETE
+[2017.07.29-23.21.50:798][280]Cmd: ACTOR DELETE
+[2017.07.29-23.21.50:800][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.29-23.21.50:810][280]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.07.29-23.21.57:064][899]LogActorFactory: Actor Factory created SM_Plains_LargeRock02
+[2017.07.29-23.21.58:442][ 33]LogActorFactory: Actor Factory created SM_Plains_LargeRock02
+[2017.07.29-23.23.36:932][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.23.37:523][707]LogSavePackage: Save=577.62ms
+[2017.07.29-23.23.37:523][707]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level174B930F14E582A609A592EABD54F523D.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.23.37:526][707]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.23.37:557][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.23.38:333][707]LogSavePackage: Save=773.44ms
+[2017.07.29-23.23.38:333][707]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData52496060454A12D977EED6AF0803006E.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.23.38:338][707]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.24.44:500][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-23.24.45:094][423]LogSavePackage: Save=582.55ms
+[2017.07.29-23.24.45:094][423]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level13AA1A67C4169E19D2CD862A322A6B144.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap'
+[2017.07.29-23.24.45:097][423]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1.umap
+[2017.07.29-23.24.45:118][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2017.07.29-23.24.45:881][423]LogSavePackage: Save=760.73ms
+[2017.07.29-23.24.45:881][423]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level1_BuiltData69C9E63A4FD11C0230DC8DADFADBB779.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset'
+[2017.07.29-23.24.45:886][423]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level1_BuiltData.uasset
+[2017.07.29-23.57.10:956][141]Cmd: QUIT_EDITOR
+[2017.07.29-23.57.11:082][141]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-23.57.11:096][141]LogExit: Preparing to exit.
+[2017.07.29-23.57.11:861][141]LogExit: Editor shut down
+[2017.07.29-23.57.11:868][141]LogExit: Transaction tracking system shut down
+[2017.07.29-23.57.12:205][141]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.29-23.57.12:209][141]LogExit: Object subsystem successfully closed.
+[2017.07.29-23.57.12:280][141]LogD3D11RHI: Shutdown
+[2017.07.29-23.57.12:280][141]LogD3D11RHI: CleanupD3DDevice
+[2017.07.29-23.57.12:624][141]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.29-23.57.12:888][141]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (526)
+[2017.07.29-23.57.12:888][141]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.29-23.57.12:888][141]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.29-23.57.12:888][141]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.29-23.57.12:888][141]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.29-23.57.12:888][141]LogDirectoryWatcher: A directory notification for 'A:/Unreal Engine Things/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.29-23.57.12:892][141]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Collections/' was aborted.
+[2017.07.29-23.57.12:892][141]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Developers/antma/Collections/' was aborted.
+[2017.07.29-23.57.12:892][141]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Collections/' was aborted.
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.29-23.57.12:892][141]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.29-23.57.12:905][141]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.29-23.57.12:916][141]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.29-23.57.12:916][141]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.29-23.57.12:916][141]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.29-23.57.12:916][141]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.29-23.57.12:916][141]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.29-23.57.12:916][141]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.29-23.57.12:928][141]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.29-23.57.12:933][141]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.29-23.57.12:943][141]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.29-23.57.12:948][141]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.29-23.57.12:948][141]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.29-23.57.12:958][141]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.29-23.57.12:958][141]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.29-23.57.12:958][141]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.29-23.57.13:952][141]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.29-23.57.13:952][141]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.29-23.57.13:952][141]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.29-23.57.13:952][141]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.29-23.57.13:967][141]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.29-23.57.13:967][141]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.29-23.57.13:984][141]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.29-23.57.13:984][141]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.29-23.57.13:984][141]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.29-23.57.13:984][141]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.29-23.57.13:984][141]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.29-23.57.13:991][141]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.29-23.57.14:004][141]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.29-23.57.14:012][141]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.29-23.57.14:029][141]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.29-23.57.14:035][141]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.29-23.57.14:098][141]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.29-23.57.14:098][141]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.29-23.57.14:102][141]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.29-23.57.14:145][141]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.29-23.57.14:145][141]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.29-23.57.14:145][141]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.29-23.57.14:145][141]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.29-23.57.14:156][141]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.29-23.57.14:156][141]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.29-23.57.14:156][141]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.29-23.57.14:157][141]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.29-23.57.14:157][141]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.29-23.57.14:157][141]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.29-23.57.14:160][141]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.29-23.57.14:160][141]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.29-23.57.14:160][141]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.29-23.57.14:179][141]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.29-23.57.14:179][141]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.29-23.57.14:179][141]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.29-23.57.14:179][141]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.29-23.57.14:179][141]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.29-23.57.14:189][141]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.29-23.57.14:404][141]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.29-23.57.14:411][141]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.29-23.57.14:422][141]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.29-23.57.14:422][141]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.29-23.57.14:431][141]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.29-23.57.14:432][141]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.29-23.57.14:533][141]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.29-23.57.14:634][141]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.29-23.57.14:634][141]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.29-23.57.14:634][141]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.29-23.57.14:634][141]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.29-23.57.14:636][141]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.29-23.57.14:681][141]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.29-23.57.14:682][141]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.29-23.57.14:682][141]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.29-23.57.14:682][141]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.29-23.57.14:682][141]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.29-23.57.14:682][141]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.29-23.57.14:682][141]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.29-23.57.14:686][141]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.29-23.57.14:686][141]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.29-23.57.14:686][141]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.29-23.57.14:686][141]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.29-23.57.14:687][141]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.29-23.57.14:687][141]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.29-23.57.14:696][141]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.29-23.57.14:696][141]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.29-23.57.14:710][141]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.29-23.57.14:725][141]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.29-23.57.14:744][141]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.29-23.57.14:744][141]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.29-23.57.14:760][141]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.29-23.57.14:760][141]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.29-23.57.14:760][141]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.29-23.57.14:772][141]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.29-23.57.14:772][141]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.29-23.57.14:774][141]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.29-23.57.14:774][141]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.29-23.57.14:774][141]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.29-23.57.14:774][141]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.29-23.57.14:774][141]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.29-23.57.14:774][141]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.29-23.57.14:922][141]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.29-23.57.14:922][141]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/' was aborted.
+[2017.07.29-23.57.14:922][141]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.29-23.57.14:922][141]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.29-23.57.14:925][141]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.29-23.57.14:926][141]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.29-23.57.14:949][141]LogDerivedDataCache: Shutdown
+[2017.07.29-23.57.14:949][141]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.29-23.57.14:949][141]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.29-23.57.14:949][141]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.29-23.57.14:960][141]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.29-23.57.14:966][141]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.29-23.57.14:966][141]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.29-23.57.14:990][141]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.29-23.57.14:999][141]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.29-23.57.14:999][141]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.29-23.57.14:999][141]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.29-23.57.14:999][141]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.29-23.57.15:014][141]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.29-23.57.15:029][141]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.29-23.57.15:029][141]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.29-23.57.15:029][141]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDF984E69-4DB2-08A8-97F8-37812D2A4F0C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=520f5a664a9a65cee5908a8fb9436eea%7C69a6443c127b4b76b30856c672c512b8%7Ce6cd1087-9776-45de-91c8-004f73fe86c1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.29-23.57.15:059][141]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.29-23.57.15:060][141]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.29-23.57.15:071][141]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.29-23.57.15:083][141]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.29-23.57.15:084][141]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.29-23.57.15:086][141]LogExit: Exiting.
+[2017.07.29-23.57.15:096][141]Log file closed, 07/29/17 16:57:15

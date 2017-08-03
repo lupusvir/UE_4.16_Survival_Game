@@ -1,0 +1,1544 @@
+﻿Log file open, 08/02/17 14:55:53
+LogInit:Display: Running engine for game: Survival_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1952751858) SRandInit(1952751858).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107648
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: A:/Unreal Engine Things/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.02-21.55.54:282][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.02-21.55.54:282][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.02-21.55.54:420][  0]LogInit: Computer: DESKTOP-SSL098G
+[2017.08.02-21.55.54:420][  0]LogInit: User: antma
+[2017.08.02-21.55.54:420][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.02-21.55.54:421][  0]LogInit: High frequency timer resolution =3.417977 MHz
+[2017.08.02-21.55.54:421][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.02-21.55.54:421][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.02-21.55.54:421][  0]LogMemory: Process Physical Memory: 272.04 MB used, 272.04 MB peak
+[2017.08.02-21.55.54:421][  0]LogMemory: Process Virtual Memory: 260.69 MB used, 260.69 MB peak
+[2017.08.02-21.55.54:421][  0]LogMemory: Physical Memory: 5209.35 MB used,  11102.65 MB free, 16312.00 MB total
+[2017.08.02-21.55.54:421][  0]LogMemory: Virtual Memory: 638.48 MB used,  11102.65 MB free, 134217728.00 MB total
+[2017.08.02-21.55.55:064][  0]LogInit: Using OS detected language (en-US).
+[2017.08.02-21.55.55:064][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.02-21.55.55:237][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.02-21.55.59:072][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.02-21.55.59:117][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.02-21.55.59:117][  0]LogD3D11RHI:       8085/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.02-21.55.59:118][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.02-21.55.59:118][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.02-21.55.59:118][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.02-21.55.59:131][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.02-21.55.59:131][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.02-21.55.59:131][  0]LogWindows: EnumDisplayDevices:
+[2017.08.02-21.55.59:131][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.02-21.55.59:131][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.02-21.55.59:131][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.02-21.55.59:131][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.02-21.55.59:131][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.02-21.55.59:131][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.02-21.55.59:131][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.02-21.55.59:131][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.02-21.55.59:131][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.02-21.55.59:193][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.02-21.55.59:456][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.02-21.55.59:556][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Intermediate/Shaders/WorkingDirectory/11140/).
+[2017.08.02-21.55.59:556][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/antma/AppData/Local/Temp/UnrealShaderWorkingDir/9DF41E664F77ABD9639E94843A721D93/'.
+[2017.08.02-21.55.59:559][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.02-21.56.03:708][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.02-21.56.03:741][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.02-21.56.03:774][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.02-21.56.03:806][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.02-21.56.03:889][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.02-21.56.03:922][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.02-21.56.03:954][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.02-21.56.03:989][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.02-21.56.04:018][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.02-21.56.04:081][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.02-21.56.04:112][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.02-21.56.04:144][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.02-21.56.04:176][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.02-21.56.04:209][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.02-21.56.04:241][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.02-21.56.04:307][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.02-21.56.04:307][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.02-21.56.04:331][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.02-21.56.04:447][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.02-21.56.04:467][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.02-21.56.04:498][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.02-21.56.04:530][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.02-21.56.04:563][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.02-21.56.04:600][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.02-21.56.04:600][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.02-21.56.05:795][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.02-21.56.07:346][  0]LogDerivedDataCache: Loaded boot cache 1.55s 90MB C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.02-21.56.07:346][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.02-21.56.07:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.02-21.56.07:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.02-21.56.07:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.02-21.56.07:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.02-21.56.07:457][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.02-21.56.07:505][  0]LogDerivedDataCache: Using Local data cache path C:/Users/antma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.02-21.56.07:551][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.02-21.56.07:579][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.02-21.56.07:679][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.02-21.56.07:679][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.02-21.56.14:342][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.02-21.56.15:214][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.02-21.56.15:694][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.02-21.56.15:838][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.02-21.56.15:893][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.02-21.56.15:893][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.02-21.56.15:893][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.02-21.56.19:925][  0]LogNetVersion: Survival_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 845712781)
+[2017.08.02-21.56.20:188][  0]LogAssetRegistry: FAssetRegistry took 0.0469 seconds to start up
+[2017.08.02-21.56.20:417][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.194661 seconds
+[2017.08.02-21.56.20:434][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.02-21.56.20:434][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.02-21.56.20:434][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.02-21.56.20:487][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.02-21.56.28:054][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.02-21.56.28:092][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.02-21.56.28:990][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.02-21.56.29:614][  0]SourceControl: Info Source control is disabled
+[2017.08.02-21.56.30:459][  0]SourceControl: Info Source control is disabled
+[2017.08.02-21.56.30:534][  0]SourceControl: Info Source control is disabled
+[2017.08.02-21.56.30:572][  0]SourceControl: Info Source control is disabled
+[2017.08.02-21.56.31:436][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.02-21.56.32:188][  0]LogEngine: Initializing Engine...
+[2017.08.02-21.56.32:194][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.02-21.56.32:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.02-21.56.32:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.02-21.56.32:995][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.02-21.56.33:048][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-21.56.33:186][  0]LogInit: FAudioDevice initialized.
+[2017.08.02-21.56.33:306][  0]LogDerivedDataCache: Saved boot cache 0.12s 90MB C:/Users/antma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.02-21.56.33:318][  0]LogInit: Texture streaming: Enabled
+[2017.08.02-21.56.33:417][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.02-21.56.33:820][  0]LogInit: Transaction tracking system initialized
+[2017.08.02-21.56.34:195][  0]BlueprintLog: New page: Editor Load
+[2017.08.02-21.56.35:301][  0]LocalizationService: Info Localization service is disabled
+[2017.08.02-21.56.36:131][  0]LogConsoleResponse:Display: 
+[2017.08.02-21.56.38:427][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/' took 0.04s
+[2017.08.02-21.56.38:427][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.02-21.56.38:427][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.02-21.56.40:197][  0]SourceControl: Info Source control is disabled
+[2017.08.02-21.56.40:218][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.02-21.56.40:258][  0]LightingResults: New page: Lighting Build
+[2017.08.02-21.56.40:397][  0]MapCheck: New page: Map Check
+[2017.08.02-21.56.40:397][  0]LightingResults: New page: Lighting Build
+[2017.08.02-21.56.41:275][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.02-21.56.41:288][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.02-21.56.41:578][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.02-21.56.41:625][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.02-21.56.41:668][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.976ms to complete.
+[2017.08.02-21.56.41:668][  0]LogFileHelpers: Loading map 'Template_Default' took 1.466
+[2017.08.02-21.56.42:533][  0]LogCollectionManager: Loaded 0 collections in 0.000816 seconds
+[2017.08.02-21.56.42:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Collections/' took 0.01s
+[2017.08.02-21.56.42:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Developers/antma/Collections/' took 0.01s
+[2017.08.02-21.56.42:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Collections/' took 0.01s
+[2017.08.02-21.56.42:641][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.02-21.56.42:660][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2017.08.02-21.56.42:743][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.02-21.56.43:532][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.02-21.56.43:591][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.02-21.56.43:884][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.02-21.56.43:971][  0]LogSlate: Took 0.009643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.02-21.56.43:997][  0]LogSlate: Took 0.013673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.02-21.56.44:012][  0]LogSlate: Took 0.010630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.02-21.56.44:334][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2017.08.02-21.56.44:637][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.02-21.56.44:727][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.02-21.56.44:728][  0]LogLoad: (Engine Initialization) Total time: 57.11 seconds
+[2017.08.02-21.56.44:728][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.48 seconds
+[2017.08.02-21.56.44:728][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.02-21.56.44:728][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.02-21.56.44:749][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.02-21.56.44:750][  0]LogOcInput: OculusInput pre-init called
+[2017.08.02-21.56.44:750][  0]LogHMD: Starting GearVRController plugin
+[2017.08.02-21.56.44:785][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.02-21.56.44:935][  1]LogAssetRegistry: Asset discovery search completed in 24.7695 seconds
+[2017.08.02-21.56.44:937][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.02-21.56.44:937][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.08.02-21.56.45:122][  1]LogSlate: Took 0.018070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-21.56.45:762][ 75]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-22.01.06:069][283]Cmd: MAP LOAD FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.02-22.01.06:093][283]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.02-22.01.06:106][283]LightingResults: New page: Lighting Build
+[2017.08.02-22.01.06:106][283]LoadErrors: New page: Loading map: Level2.umap
+[2017.08.02-22.01.06:113][283]MapCheck: New page: Map Check
+[2017.08.02-22.01.06:114][283]LightingResults: New page: Lighting Build
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [0319.22] Compile of AB_KnightGirl successful, but with 6 Warning(s) [in 11 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [0319.22] Compile of AB_KnightGirl successful, but with 7 Warning(s) [in 0 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.01.06:842][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [0319.22] Compile of AB_KnightGirl successful, but with 8 Warning(s) [in 0 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.01.06:870][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:870][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [0319.25] Compile of AB_KnightGirl successful, but with 6 Warning(s) [in 7 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [0319.25] Compile of AB_KnightGirl successful, but with 7 Warning(s) [in 0 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.01.06:871][283]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [0319.25] Compile of AB_KnightGirl successful, but with 8 Warning(s) [in 0 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.01.07:093][283]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.02-22.01.31:211][283]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.01.33:454][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.02-22.01.33:531][283]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.02-22.01.33:577][283]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.848ms to complete.
+[2017.08.02-22.01.33:577][283]LogFileHelpers: Loading map 'Level2' took 27.523
+[2017.08.02-22.07.40:125][289]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.02-22.07.42:278][335]LogSlate: Took 0.013763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.02-22.07.43:783][428]LogRenderer: Reallocating scene render targets to support 1208x744 NumSamples 1 (Frame:117).
+[2017.08.02-22.09.15:063][142]LogSlate: Took 0.028745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.02-22.09.21:632][840]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_KnightGirl_C_1
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.09.21:632][840]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_KnightGirl_C_1
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.11.59:400][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.022
+[2017.08.02-22.11.59:402][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_KCPlayerController] ([1] browsable assets)...
+[2017.08.02-22.11.59:402][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_KCPlayerController]
+[2017.08.02-22.11.59:450][129]LogSavePackage: Save=46.37ms
+[2017.08.02-22.11.59:451][129]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerController_Auto13EBF5A6E49C0F394A3AD30AA548D6769.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCPlayerController_Auto1.uasset'
+[2017.08.02-22.11.59:453][129]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCPlayerController_Auto1.uasset
+[2017.08.02-22.11.59:453][129]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.08.02-22.14.28:627][945]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.14.29:197][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.14.29:220][987]LogSavePackage: Save=19.65ms
+[2017.08.02-22.14.29:220][987]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerControllerDF6791404AEED0A2CCB1769B987B513E.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.14.29:222][987]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.22.05:836][882]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.22.06:917][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.22.07:287][999]LogSavePackage: Save=27.45ms
+[2017.08.02-22.22.07:287][999]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerControllerF98876164D7EA75C4A4960A078D4B0ED.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.22.07:290][999]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.28.13:800][725]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.02-22.28.13:816][725]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/Level2.Level2:PersistentLevel.BP_KCBase_5.CollisionCylinder is already used by CapsuleComponent /Game/Levels/Level2.Level2:PersistentLevel.REINST_BP_KCBase_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.02-22.28.13:816][725]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/Level2.Level2:PersistentLevel.BP_KCBase_5.Arrow is already used by ArrowComponent /Game/Levels/Level2.Level2:PersistentLevel.REINST_BP_KCBase_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.02-22.28.13:816][725]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/Level2.Level2:PersistentLevel.BP_KCBase_5.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/Level2.Level2:PersistentLevel.REINST_BP_KCBase_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.02-22.28.13:816][725]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/Level2.Level2:PersistentLevel.BP_KCBase_5.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/Level2.Level2:PersistentLevel.REINST_BP_KCBase_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.02-22.28.14:489][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.02-22.28.14:541][761]LogSavePackage: Save=43.71ms
+[2017.08.02-22.28.14:541][761]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase11ACFF0F46D39A988ADB498378D10A1B.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.02-22.28.14:545][761]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.02-22.28.24:323][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-22.28.25:122][813]LogSavePackage: Save=774.27ms
+[2017.08.02-22.28.25:122][813]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level22B85F9FA4082420130A025B453B3ECE3.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-22.28.25:153][813]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-22.28.25:179][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-22.28.27:708][813]LogSavePackage: Save=1391.96ms
+[2017.08.02-22.28.27:708][813]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData6493968B491AA0AD7EF5BCBCAFDD59C5.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-22.28.27:751][813]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-22.32.43:034][676]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.02-22.32.52:511][805]BlueprintLog: New page: Compile BP_KGBaseGamemode
+[2017.08.02-22.32.53:046][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KGBaseGamemode" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KGBaseGamemode.uasset" SILENT=true
+[2017.08.02-22.32.53:056][847]LogSavePackage: Save=8.72ms
+[2017.08.02-22.32.53:056][847]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KGBaseGamemode432D771E4D152C0C35A6FB961A61D35F.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KGBaseGamemode.uasset'
+[2017.08.02-22.32.53:058][847]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KGBaseGamemode.uasset
+[2017.08.02-22.34.26:446][ 92]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.02-22.34.28:150][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-22.34.28:911][201]LogSavePackage: Save=724.10ms
+[2017.08.02-22.34.28:911][201]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level206D3D5E74F3967F52F5323AFCAA68D83.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-22.34.28:914][201]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-22.34.28:944][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-22.34.30:216][201]LogSavePackage: Save=1122.29ms
+[2017.08.02-22.34.30:216][201]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData336661A340C33C80EC882EA2C038EA31.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-22.34.30:221][201]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-22.34.35:563][572]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.02-22.34.35:975][595]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SurvivalGame
+[2017.08.02-22.34.35:975][595]LogTemp: CWD: A:\Unreal Engine Things\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.02-22.34.35:975][595]LogTemp: Initial Dir: A:\Unreal Engine Things\UE_4.16
+[2017.08.02-22.34.35:975][595]LogTemp: Env CWD: A:\Unreal Engine Things\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.02-22.34.35:975][595]LogTemp: BranchPath = DESKTOP-SSL098G/A/Unreal Engine Things/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-SSL098G/A/Unreal Engine Things/UE_4.16/Engine/Binaries
+[2017.08.02-22.34.35:984][596]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\antma\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.02-22.34.45:450][729]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.02-22.34.55:579][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.34.55:605][788]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:34:55 AM)
+[2017.08.02-22.34.55:613][788]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.34.55:656][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042459s)
+[2017.08.02-22.34.55:656][788]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.34.55:656][788]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2017.08.02-22.34.55:657][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.043880s)
+[2017.08.02-22.34.55:681][788]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.34.55:688][788]LogInit: FAudioDevice initialized.
+[2017.08.02-22.34.55:739][788]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.34.55:768][788]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.34.55
+[2017.08.02-22.34.55:797][788]LogWorld: Bringing up level for play took: 0.046930
+[2017.08.02-22.34.55:873][788]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.02-22.34.55:877][788]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.386
+[2017.08.02-22.34.55:942][789]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.060578 > MaxSimulationTimeStep (0.050) for 'BP_KCBase_C_0', movement 'Walking'
+[2017.08.02-22.36.50:439][836]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.02-22.36.51:200][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.02-22.36.51:229][910]LogSavePackage: Save=21.79ms
+[2017.08.02-22.36.51:229][910]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBaseF261B7E94C844F6CCC27EDB3A224EAEB.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.02-22.36.51:231][910]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.02-22.36.53:010][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-22.36.53:763][ 84]LogSavePackage: Save=734.79ms
+[2017.08.02-22.36.53:763][ 84]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2B0FC3829419886343A7CF993597CF109.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-22.36.53:767][ 84]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-22.36.53:797][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-22.36.54:847][ 84]LogSavePackage: Save=1047.33ms
+[2017.08.02-22.36.54:847][ 84]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData856998924F342D4821A0C59631E3266A.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-22.36.54:852][ 84]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-22.36.55:516][114]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-22.36.55:536][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.36.55:537][114]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:36:55 AM)
+[2017.08.02-22.36.55:537][114]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.36.55:579][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042718s)
+[2017.08.02-22.36.55:580][114]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.36.55:580][114]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2017.08.02-22.36.55:581][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.044111s)
+[2017.08.02-22.36.55:603][114]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.36.55:609][114]LogInit: FAudioDevice initialized.
+[2017.08.02-22.36.55:645][114]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.36.55:656][114]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.36.55
+[2017.08.02-22.36.55:657][114]LogWorld: Bringing up level for play took: 0.010547
+[2017.08.02-22.36.55:658][114]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.604
+[2017.08.02-22.37.57:249][233]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.02-22.37.58:532][330]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.02-22.38.03:000][588]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.02-22.38.04:116][674]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.02-22.38.04:958][738]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.02-22.38.07:854][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-22.38.08:628][938]LogSavePackage: Save=752.71ms
+[2017.08.02-22.38.08:628][938]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2088801A04E687D6FB5D8F5BEC6F0B8FB.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-22.38.08:631][938]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-22.38.08:656][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-22.38.09:692][938]LogSavePackage: Save=1034.21ms
+[2017.08.02-22.38.09:692][938]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData904541754083BE9DE4501EB4697E7774.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-22.38.09:696][938]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-22.38.10:282][965]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-22.38.10:301][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.38.10:301][965]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:38:10 AM)
+[2017.08.02-22.38.10:301][965]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.38.10:341][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040679s)
+[2017.08.02-22.38.10:342][965]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.38.10:342][965]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2017.08.02-22.38.10:342][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.041745s)
+[2017.08.02-22.38.10:364][965]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.38.10:371][965]LogInit: FAudioDevice initialized.
+[2017.08.02-22.38.10:401][965]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.38.10:412][965]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.38.10
+[2017.08.02-22.38.10:412][965]LogWorld: Bringing up level for play took: 0.010262
+[2017.08.02-22.38.10:415][965]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.153
+[2017.08.02-22.40.05:089][319]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.40.05:557][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.40.05:592][362]LogSavePackage: Save=27.29ms
+[2017.08.02-22.40.05:593][362]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerControllerE2C629984CF9E9555A8709B6CBF08016.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.40.05:596][362]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.40.07:685][552]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-22.40.07:706][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.40.07:706][552]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:40:07 AM)
+[2017.08.02-22.40.07:706][552]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.40.07:750][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044531s)
+[2017.08.02-22.40.07:751][552]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.40.07:751][552]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.08.02-22.40.07:752][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.045864s)
+[2017.08.02-22.40.07:773][552]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.40.07:779][552]LogInit: FAudioDevice initialized.
+[2017.08.02-22.40.07:813][552]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.40.07:824][552]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.40.07
+[2017.08.02-22.40.07:825][552]LogWorld: Bringing up level for play took: 0.010465
+[2017.08.02-22.40.07:827][552]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.435
+[2017.08.02-22.40.36:741][341]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.02-22.40.37:134][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.02-22.40.37:158][371]LogSavePackage: Save=21.17ms
+[2017.08.02-22.40.37:158][371]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase90FD867A46E8BA75713C5E9DD56637B4.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.02-22.40.37:161][371]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.02-22.40.38:985][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-22.40.39:739][538]LogSavePackage: Save=729.50ms
+[2017.08.02-22.40.39:739][538]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2BAB040CA437A4C31AEB61EBC162F3462.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-22.40.39:743][538]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-22.40.39:767][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-22.40.40:929][538]LogSavePackage: Save=1118.30ms
+[2017.08.02-22.40.40:929][538]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltDataC56D9D054247F84E9ADC1F9ABD7303E7.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-22.40.40:933][538]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-22.40.41:402][563]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-22.40.41:420][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.40.41:420][563]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:40:41 AM)
+[2017.08.02-22.40.41:421][563]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.40.41:461][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040002s)
+[2017.08.02-22.40.41:461][563]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.40.41:461][563]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.08.02-22.40.41:462][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.041000s)
+[2017.08.02-22.40.41:484][563]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.40.41:490][563]LogInit: FAudioDevice initialized.
+[2017.08.02-22.40.41:519][563]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.40.41:530][563]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.40.41
+[2017.08.02-22.40.41:531][563]LogWorld: Bringing up level for play took: 0.010343
+[2017.08.02-22.40.41:533][563]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.729
+[2017.08.02-22.41.00:263][249]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.02-22.41.00:725][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.02-22.41.00:750][287]LogSavePackage: Save=21.28ms
+[2017.08.02-22.41.00:750][287]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBaseF83870B74BFD3D8803521AA93F7E90D7.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.02-22.41.00:753][287]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.02-22.41.01:717][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-22.41.02:462][361]LogSavePackage: Save=726.14ms
+[2017.08.02-22.41.02:462][361]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level29CFB435F4955C9C4CE0121ADFF178768.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-22.41.02:466][361]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-22.41.02:497][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-22.41.03:550][361]LogSavePackage: Save=1048.74ms
+[2017.08.02-22.41.03:550][361]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData5EF9B11447189E33271531AB8F47790D.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-22.41.03:555][361]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-22.41.49:105][105]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.41.49:519][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.41.49:550][141]LogSavePackage: Save=27.80ms
+[2017.08.02-22.41.49:550][141]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerController912A6AD649EB662FE626EBACED49074A.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.41.49:553][141]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.43.58:516][940]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.02-22.43.58:557][943]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SurvivalGame
+[2017.08.02-22.43.58:557][943]LogTemp: CWD: A:\Unreal Engine Things\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.02-22.43.58:557][943]LogTemp: Initial Dir: A:\Unreal Engine Things\UE_4.16
+[2017.08.02-22.43.58:557][943]LogTemp: Env CWD: A:\Unreal Engine Things\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.02-22.43.58:557][943]LogTemp: BranchPath = DESKTOP-SSL098G/A/Unreal Engine Things/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-SSL098G/A/Unreal Engine Things/UE_4.16/Engine/Binaries
+[2017.08.02-22.43.58:566][943]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\antma\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.02-22.51.26:479][445]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.51.26:895][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.51.26:943][481]LogSavePackage: Save=37.74ms
+[2017.08.02-22.51.26:943][481]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerController4A8D500C4B8E304DBF771B88CAD80C22.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.51.26:947][481]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.51.36:331][ 20]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.51.36:686][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.51.36:723][ 49]LogSavePackage: Save=35.13ms
+[2017.08.02-22.51.36:723][ 49]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerController5829663E4D58CF73B28A57A080B3A506.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.51.36:726][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.52.46:791][726]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.52.47:299][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.52.47:346][773]LogSavePackage: Save=43.23ms
+[2017.08.02-22.52.47:346][773]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerController042232C04ECB0DF771610FA59EAE46ED.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.52.47:349][773]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.56.00:649][252]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.56.01:005][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.56.01:051][280]LogSavePackage: Save=42.59ms
+[2017.08.02-22.56.01:051][280]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerControllerF2FF33684D15AB9B83FF7EA3AFD39EA7.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.56.01:053][280]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.56.29:167][588]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-22.56.29:637][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-22.56.29:692][630]LogSavePackage: Save=46.87ms
+[2017.08.02-22.56.29:692][630]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerControllerB071B83447D1366FD128809C1A49F659.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-22.56.29:694][630]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-22.57.28:071][411]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.02-22.57.28:359][411]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.02-22.57.28:545][411]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.28:545][411]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.28:612][411]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.02-22.57.28:849][411]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.28:849][411]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.28:937][411]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.08.02-22.57.29:007][411]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.02-22.57.29:075][412]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.29:075][412]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.29:086][413]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.29:086][413]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.29:094][414]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.29:094][414]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.29:107][415]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.29:107][415]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.29:115][416]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.29:115][416]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.29:124][417]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.29:124][417]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.29:132][418]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_15
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:185][727]BlueprintLog: New page: Compile AB_KnightGirl
+[2017.08.02-22.57.40:205][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.57.40:205][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.57.40:205][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.57.40:205][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.57.40:205][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.57.40:205][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-22.57.40:206][727]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_KnightGirl_C_2
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:206][727]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_KnightGirl_C_2
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:207][727]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:207][727]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:302][727]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:302][727]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:304][727]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-22.57.40:304][727]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-22.57.40:304][727]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-22.57.40:304][727]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-22.57.40:304][727]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-22.57.40:304][727]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-22.57.40:304][727]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [3712.68] Compile of AB_KnightGirl successful, but with 6 Warning(s) [in 118 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-22.57.40:308][727]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:308][727]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:333][728]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:333][728]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:345][729]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:345][729]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:353][730]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:353][730]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:360][731]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:360][731]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:368][732]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:368][732]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-22.57.40:376][733]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0.AB_KnightGirl_C_4
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-22.57.40:686][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/AB_KnightGirl" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset" SILENT=true
+[2017.08.02-22.57.40:787][768]LogSavePackage: Save=90.33ms
+[2017.08.02-22.57.40:787][768]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AB_KnightGirl1E65F404445DA7D336FDC2BB473EF8AD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset'
+[2017.08.02-22.57.40:790][768]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset
+[2017.08.02-22.57.43:818][ 68]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-22.57.43:836][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.57.43:837][ 68]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:57:43 AM)
+[2017.08.02-22.57.43:837][ 68]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.57.43:877][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039847s)
+[2017.08.02-22.57.43:877][ 68]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.57.43:877][ 68]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.08.02-22.57.43:877][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.040792s)
+[2017.08.02-22.57.43:902][ 68]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.57.43:909][ 68]LogInit: FAudioDevice initialized.
+[2017.08.02-22.57.43:939][ 68]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.57.43:950][ 68]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.57.43
+[2017.08.02-22.57.43:951][ 68]LogWorld: Bringing up level for play took: 0.010650
+[2017.08.02-22.57.43:952][ 68]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.31
+[2017.08.02-22.58.56:855][634]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-22.58.56:875][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-22.58.56:875][634]PIE: New page: PIE session: Level2 (Aug 2, 2017, 8:58:56 AM)
+[2017.08.02-22.58.56:875][634]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-22.58.56:919][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043573s)
+[2017.08.02-22.58.56:920][634]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-22.58.56:920][634]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.08.02-22.58.56:920][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.044691s)
+[2017.08.02-22.58.56:944][634]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-22.58.56:950][634]LogInit: FAudioDevice initialized.
+[2017.08.02-22.58.56:979][634]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-22.58.56:991][634]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-15.58.56
+[2017.08.02-22.58.56:991][634]LogWorld: Bringing up level for play took: 0.010757
+[2017.08.02-22.58.56:994][634]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.732
+[2017.08.02-23.00.54:847][ 91]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.02-23.00.55:837][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.02-23.00.55:866][191]LogSavePackage: Save=21.44ms
+[2017.08.02-23.00.55:866][191]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase9287358E44240B2FF45F638150E725A0.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.02-23.00.55:869][191]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.02-23.00.57:277][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-23.00.58:036][290]LogSavePackage: Save=726.78ms
+[2017.08.02-23.00.58:036][290]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2831FDABE483ABA29C1A70CBB02FDDFB0.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-23.00.58:039][290]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-23.00.58:070][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-23.00.59:150][290]LogSavePackage: Save=1051.63ms
+[2017.08.02-23.00.59:150][290]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData048CF1F14ED75CBE7A3EED8EBCBAE6A7.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-23.00.59:154][290]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-23.00.59:586][310]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-23.00.59:605][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-23.00.59:605][310]PIE: New page: PIE session: Level2 (Aug 2, 2017, 9:00:59 AM)
+[2017.08.02-23.00.59:605][310]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-23.00.59:647][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041062s)
+[2017.08.02-23.00.59:647][310]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-23.00.59:648][310]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2017.08.02-23.00.59:648][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.042573s)
+[2017.08.02-23.00.59:671][310]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-23.00.59:677][310]LogInit: FAudioDevice initialized.
+[2017.08.02-23.00.59:710][310]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-23.00.59:721][310]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-16.00.59
+[2017.08.02-23.00.59:722][310]LogWorld: Bringing up level for play took: 0.010516
+[2017.08.02-23.00.59:724][310]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.538
+[2017.08.02-23.07.32:574][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.08.02-23.07.32:597][ 25]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.08.02-23.07.32:854][ 25]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.02-23.07.39:793][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/Animations/AN_MeleeAttack" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset" SILENT=true
+[2017.08.02-23.07.39:807][830]LogSavePackage: Save=11.90ms
+[2017.08.02-23.07.39:807][830]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AN_MeleeAttackC3C62AB440CB39DEC6369180DCFA8FCB.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset'
+[2017.08.02-23.07.39:809][830]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset
+[2017.08.02-23.08.27:671][490]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.02-23.08.28:194][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.02-23.08.28:253][538]LogSavePackage: Save=51.18ms
+[2017.08.02-23.08.28:253][538]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerControllerA8DE55FD4F2D6755E31F19AAE80B60D7.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.02-23.08.28:257][538]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.02-23.10.50:708][407]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.02-23.10.51:482][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.02-23.10.51:515][454]LogSavePackage: Save=25.34ms
+[2017.08.02-23.10.51:515][454]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBaseBED5283646A107978763D5B9BE33B1FD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.02-23.10.51:517][454]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.02-23.10.53:449][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.02-23.10.54:233][612]LogSavePackage: Save=738.76ms
+[2017.08.02-23.10.54:233][612]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level212E1D0CF4029D35923B81682E456AF13.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.02-23.10.54:237][612]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.02-23.10.54:267][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.02-23.10.55:399][612]LogSavePackage: Save=1101.54ms
+[2017.08.02-23.10.55:399][612]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData0E92ECC34726EF4FF05DEC9B645D51A2.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.02-23.10.55:406][612]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.02-23.11.04:854][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.02-23.11.05:015][226]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:016][226]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:025][226]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.08.02-23.11.05:205][226]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:205][226]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:261][226]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.02-23.11.05:278][227]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:278][227]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:286][228]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:286][228]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:295][229]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:295][229]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:303][230]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:303][230]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:311][231]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:311][231]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:319][232]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.11.05:319][232]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01FF
+[2017.08.02-23.11.05:328][233]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_12
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:01D1
+[2017.08.02-23.19.00:064][210]BlueprintLog: New page: Compile AB_KnightGirl
+[2017.08.02-23.19.00:085][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-23.19.00:085][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-23.19.00:085][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-23.19.00:085][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-23.19.00:085][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-23.19.00:085][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.08.02-23.19.00:086][210]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_KnightGirl_C_0
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:086][210]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AB_KnightGirl_C_0
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:088][210]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:088][210]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:198][210]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:198][210]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:201][210]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-23.19.00:201][210]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-23.19.00:202][210]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-23.19.00:202][210]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-23.19.00:202][210]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-23.19.00:202][210]BlueprintEditorCompileResults:Warning: Warning Node  Result  uses potentially thread-unsafe call  Get Movement Component . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding. 
+[2017.08.02-23.19.00:202][210]LogBlueprint:Warning: [Compiler AB_KnightGirl] Warning [4992.58] Compile of AB_KnightGirl successful, but with 6 Warning(s) [in 138 ms] (/Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl)
+[2017.08.02-23.19.00:206][210]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:206][210]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:227][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:227][211]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:236][212]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:236][212]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:245][213]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:245][213]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:252][214]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:252][214]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:259][215]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:259][215]LogScript:Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue2
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0066
+[2017.08.02-23.19.00:268][216]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue3
+	AB_KnightGirl_C /Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4.AB_KnightGirl_C_3
+	Function /Game/Assets/Knight/AB_KnightGirl.AB_KnightGirl_C:ExecuteUbergraph_AB_KnightGirl:0038
+[2017.08.02-23.19.00:627][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/AB_KnightGirl" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset" SILENT=true
+[2017.08.02-23.19.00:746][257]LogSavePackage: Save=109.01ms
+[2017.08.02-23.19.00:746][257]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AB_KnightGirl5810D1404B245451E654BFA581FE92EC.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset'
+[2017.08.02-23.19.00:748][257]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset
+[2017.08.02-23.19.16:984][ 32]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.02-23.19.17:004][ 32]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.08.02-23.19.17:248][ 32]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.02-23.19.24:692][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/Animations/AN_MeleeAttack" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset" SILENT=true
+[2017.08.02-23.19.24:737][888]LogSavePackage: Save=11.94ms
+[2017.08.02-23.19.24:737][888]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AN_MeleeAttack53FFA5CC446FECA98A49F386A5AB4AFD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset'
+[2017.08.02-23.19.24:740][888]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset
+[2017.08.02-23.20.16:589][209]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.02-23.21.10:335][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.030
+[2017.08.02-23.21.10:346][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Knight/AB_KnightGirl] ([1] browsable assets)...
+[2017.08.02-23.21.10:346][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/AB_KnightGirl]
+[2017.08.02-23.21.10:451][566]LogSavePackage: Save=102.59ms
+[2017.08.02-23.21.10:451][566]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AB_KnightGirl_Auto2F100441E454B7964FBFABC80DE7B2404.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/AB_KnightGirl_Auto2.uasset'
+[2017.08.02-23.21.10:476][566]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/AB_KnightGirl_Auto2.uasset
+[2017.08.02-23.21.10:480][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Knight/SK_KnightGirl] ([1] browsable assets)...
+[2017.08.02-23.21.10:480][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/SK_KnightGirl]
+[2017.08.02-23.21.10:494][566]LogSavePackage: Save=4.59ms
+[2017.08.02-23.21.10:494][566]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/SK_KnightGirl_Auto25B5ADB10411C402F47257480E2F413A6.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/SK_KnightGirl_Auto2.uasset'
+[2017.08.02-23.21.10:495][566]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/SK_KnightGirl_Auto2.uasset
+[2017.08.02-23.21.10:495][566]LogFileHelpers: Auto-saving content packages took 0.159
+[2017.08.02-23.21.58:205][562]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.08.02-23.21.58:226][562]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.08.02-23.21.58:485][563]LogRenderer: Reallocating scene render targets to support 1208x928 NumSamples 1 (Frame:1).
+[2017.08.02-23.24.30:463][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/AB_KnightGirl" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset" SILENT=true
+[2017.08.02-23.24.30:564][668]LogSavePackage: Save=90.35ms
+[2017.08.02-23.24.30:564][668]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AB_KnightGirlD345C271460FCFC158205ABEB1A562B9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset'
+[2017.08.02-23.24.30:570][668]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/AB_KnightGirl.uasset
+[2017.08.02-23.24.45:020][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/Animations/AN_MeleeAttack" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset" SILENT=true
+[2017.08.02-23.24.45:040][371]LogSavePackage: Save=12.01ms
+[2017.08.02-23.24.45:040][371]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AN_MeleeAttack2BC25EDF46FB29A7AD9E458B292D51EA.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset'
+[2017.08.02-23.24.45:043][371]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset
+[2017.08.02-23.24.48:077][669]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.02-23.24.48:121][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.02-23.24.48:121][669]PIE: New page: PIE session: Level2 (Aug 2, 2017, 9:24:48 AM)
+[2017.08.02-23.24.48:121][669]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.02-23.24.48:164][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042375s)
+[2017.08.02-23.24.48:165][669]LogAIModule: Creating AISystem for world Level2
+[2017.08.02-23.24.48:165][669]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2017.08.02-23.24.48:165][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.043636s)
+[2017.08.02-23.24.48:190][669]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.02-23.24.48:196][669]LogInit: FAudioDevice initialized.
+[2017.08.02-23.24.48:225][669]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.02-23.24.48:236][669]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-16.24.48
+[2017.08.02-23.24.48:237][669]LogWorld: Bringing up level for play took: 0.010522
+[2017.08.02-23.24.48:239][669]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.024
+[2017.08.02-23.26.14:702][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/SK_KnightGirl" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset" SILENT=true
+[2017.08.02-23.26.14:714][676]LogSavePackage: Save=4.73ms
+[2017.08.02-23.26.14:714][676]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/SK_KnightGirl962286F245A166580C9CB98E2A0A6FDD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset'
+[2017.08.02-23.26.14:717][676]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset
+[2017.08.02-23.32.11:791][432]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.024
+[2017.08.02-23.32.11:792][432]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Knight/Animations/AN_MeleeAttack] ([1] browsable assets)...
+[2017.08.02-23.32.11:809][432]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Knight/Animations/AN_MeleeAttack.AN_MeleeAttack]
+[2017.08.02-23.32.11:809][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/Animations/AN_MeleeAttack]
+[2017.08.02-23.32.11:829][432]LogSavePackage: Save=12.70ms
+[2017.08.02-23.32.11:829][432]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AN_MeleeAttack_Auto3B5EDE7574E6CE7C9A63B31AEAE06708C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/Animations/AN_MeleeAttack_Auto3.uasset'
+[2017.08.02-23.32.11:843][432]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/Animations/AN_MeleeAttack_Auto3.uasset
+[2017.08.02-23.32.11:843][432]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.08.02-23.42.12:533][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.024
+[2017.08.02-23.42.12:534][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_KCBase] ([1] browsable assets)...
+[2017.08.02-23.42.12:553][143]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_KCBase.BP_KCBase]
+[2017.08.02-23.42.12:553][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_KCBase]
+[2017.08.02-23.42.12:553][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCBase_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.02-23.42.12:591][143]LogSavePackage: Save=29.85ms
+[2017.08.02-23.42.12:591][143]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase_Auto4D2876F684F927E85F1542F8ECB8802DD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCBase_Auto4.uasset'
+[2017.08.02-23.42.12:592][143]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCBase_Auto4.uasset
+[2017.08.02-23.42.12:593][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Knight/Animations/AN_MeleeAttack] ([1] browsable assets)...
+[2017.08.02-23.42.12:610][143]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Knight/Animations/AN_MeleeAttack.AN_MeleeAttack]
+[2017.08.02-23.42.12:610][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Knight/Animations/AN_MeleeAttack]
+[2017.08.02-23.42.12:650][143]LogSavePackage: Save=12.83ms
+[2017.08.02-23.42.12:650][143]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AN_MeleeAttack_Auto472DC55B84E4637930268A3836350FFBD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/Animations/AN_MeleeAttack_Auto4.uasset'
+[2017.08.02-23.42.12:651][143]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Knight/Animations/AN_MeleeAttack_Auto4.uasset
+[2017.08.02-23.42.12:651][143]LogFileHelpers: Auto-saving content packages took 0.117
+[2017.08.02-23.52.13:545][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.02-23.52.14:291][625]LogSavePackage: Save=734.39ms
+[2017.08.02-23.52.14:291][625]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_Auto517EC2BB84CBCF5AC653B6E98D7925197.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto5.umap'
+[2017.08.02-23.52.14:296][625]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto5.umap
+[2017.08.02-23.52.14:298][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.781
+[2017.08.02-23.52.14:298][625]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.781
+[2017.08.02-23.52.14:300][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_KCBase] ([1] browsable assets)...
+[2017.08.02-23.52.14:317][625]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_KCBase.BP_KCBase]
+[2017.08.02-23.52.14:317][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_KCBase]
+[2017.08.02-23.52.14:317][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCBase_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.02-23.52.14:356][625]LogSavePackage: Save=32.30ms
+[2017.08.02-23.52.14:356][625]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase_Auto5A268926843F8E9DD24CEB7BB6DF3D57C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCBase_Auto5.uasset'
+[2017.08.02-23.52.14:392][625]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Blueprints/BP_KCBase_Auto5.uasset
+[2017.08.02-23.52.14:392][625]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.08.03-00.54.42:390][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-00.54.43:225][460]LogSavePackage: Save=807.05ms
+[2017.08.03-00.54.43:225][460]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2E52F0514448FF0944D7AAB9046011D73.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.03-00.54.43:232][460]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.03-00.54.43:266][460]LogFileHelpers: Saving map 'Level2' took 0.932
+[2017.08.03-00.54.43:270][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-00.54.43:299][460]LogSavePackage: Save=23.11ms
+[2017.08.03-00.54.43:300][460]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBaseBEC1E46F41E07E8E9B3900B2E1CC3E7A.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-00.54.43:304][460]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-00.54.43:307][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/Animations/AN_MeleeAttack" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset" SILENT=true
+[2017.08.03-00.54.43:320][460]LogSavePackage: Save=5.16ms
+[2017.08.03-00.54.43:320][460]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/AN_MeleeAttack5FE0178F40D8F53B71961DBDABEA3DE2.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset'
+[2017.08.03-00.54.43:322][460]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/Animations/AN_MeleeAttack.uasset
+[2017.08.03-01.04.07:569][597]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.03-01.04.08:122][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-01.04.08:163][644]LogSavePackage: Save=32.50ms
+[2017.08.03-01.04.08:163][644]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase6766C0444EC0A59EFF62578C8C5BD34B.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-01.04.08:166][644]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-01.04.10:104][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-01.04.10:858][819]LogSavePackage: Save=725.15ms
+[2017.08.03-01.04.10:858][819]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2A078E89D4764F6AF8D7C2B89043A643C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.03-01.04.10:862][819]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.03-01.04.10:893][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.03-01.04.11:965][819]LogSavePackage: Save=1030.77ms
+[2017.08.03-01.04.11:965][819]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData5404439442EF34D185F739AD01D157D9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.03-01.04.11:971][819]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.03-01.04.20:402][774]BlueprintLog: New page: Compile BP_KCPlayerController
+[2017.08.03-01.04.20:821][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCPlayerController" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset" SILENT=true
+[2017.08.03-01.04.20:879][809]LogSavePackage: Save=50.66ms
+[2017.08.03-01.04.20:879][809]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCPlayerController4819CB40469CF6F80596479FCE5DADAC.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset'
+[2017.08.03-01.04.20:881][809]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCPlayerController.uasset
+[2017.08.03-01.04.24:833][115]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-01.04.24:853][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-01.04.24:853][115]PIE: New page: PIE session: Level2 (Aug 2, 2017, 11:04:24 AM)
+[2017.08.03-01.04.24:853][115]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.03-01.04.24:897][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043863s)
+[2017.08.03-01.04.24:898][115]LogAIModule: Creating AISystem for world Level2
+[2017.08.03-01.04.24:898][115]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.08.03-01.04.24:898][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.044997s)
+[2017.08.03-01.04.24:921][115]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.03-01.04.24:928][115]LogInit: FAudioDevice initialized.
+[2017.08.03-01.04.24:963][115]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.03-01.04.24:974][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-18.04.24
+[2017.08.03-01.04.24:975][115]LogWorld: Bringing up level for play took: 0.010528
+[2017.08.03-01.04.24:977][115]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.715
+[2017.08.03-01.08.44:750][705]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\antma\Desktop\Coding Stuff\Unreal Engine Assets\SurvivalAssets\S_Sword_Basic.FBX)
+[2017.08.03-01.08.44:856][705]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.03-01.08.44:856][705]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.03-01.08.44:856][705]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.03-01.08.44:856][705]LogFbx: ItemName: Model, ItemCount : 1
+[2017.08.03-01.08.44:856][705]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.03-01.08.44:856][705]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.03-01.08.44:886][705]LogFbx: Loading FBX Scene from C:\Users\antma\Desktop\Coding Stuff\Unreal Engine Assets\SurvivalAssets\S_Sword_Basic.FBX
+[2017.08.03-01.08.44:894][705]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.03-01.08.52:860][705]LogFbx: Loading FBX Scene from C:\Users\antma\Desktop\Coding Stuff\Unreal Engine Assets\SurvivalAssets\S_Sword_Basic.FBX
+[2017.08.03-01.08.52:865][705]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.03-01.08.52:869][705]LogLinker: Can't find file '/Game/Assets/Weapons/M_Weapons_Metal'
+[2017.08.03-01.08.52:869][705]LogLinker: Can't find file '/Game/Assets/Weapons/M_Weapons_Metal'
+[2017.08.03-01.08.52:875][705]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.08.52:977][705]LogStaticMesh: Building static mesh S_Sword_Basic...
+[2017.08.03-01.08.53:021][705]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Weapons/S_Sword_Basic.S_Sword_Basic
+[2017.08.03-01.08.53:099][705]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.08.03-01.08.57:507][102]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.08.57:605][102]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.08.57:651][102]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.08.58:607][174]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.03-01.08.58:607][174]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.08.58:607][174]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.05:080][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:242][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:273][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:302][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:376][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:415][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:450][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:482][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:512][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:545][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:581][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:617][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:653][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:687][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:719][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:750][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:783][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:820][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:856][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:891][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:924][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:955][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.05:986][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.06:022][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.06:058][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.06:095][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.06:130][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.06:162][955]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.06:281][963]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.06:303][963]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.07:328][ 50]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.03-01.09.07:328][ 50]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.07:328][ 50]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.07:819][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.07:923][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.07:956][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.07:985][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:017][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:051][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:087][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:122][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:371][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:399][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:430][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:546][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:581][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:613][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:643][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.08:675][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:526][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:555][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:587][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:620][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:657][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:877][247]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.09:909][247]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.10:099][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.10:130][259]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.10:149][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.03-01.09.11:128][343]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.03-01.09.11:128][343]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.11:128][343]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.18:528][226]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.19:376][297]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.03-01.09.19:376][297]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.19:376][297]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.20:291][405]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.21:122][488]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.03-01.09.21:122][488]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.21:122][488]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.24:226][860]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.25:081][946]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.03-01.09.25:081][946]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.25:081][946]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.28:058][303]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.28:969][398]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.28:969][398]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.28:969][398]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.33:604][949]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.34:450][ 31]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.34:450][ 31]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.34:451][ 31]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.36:255][247]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.37:131][333]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.37:131][333]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.37:131][333]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.38:850][539]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.39:689][623]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.39:689][623]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.39:689][623]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.42:091][911]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.42:958][  0]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.42:958][  0]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.42:958][  0]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.47:544][550]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.48:408][639]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.48:409][639]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.48:409][639]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.50:027][833]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.50:889][921]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.50:889][921]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.50:889][921]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.53:366][218]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.54:224][305]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.54:224][305]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.54:224][305]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.03-01.09.55:749][488]LogMaterialEditor: Saving and Compiling material M_Weapons_Metal
+[2017.08.03-01.09.56:333][488]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.56:368][488]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.56:387][488]LogMaterial: Missing cached shader map for material M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.56:468][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Weapons_Metal, compiling. 
+[2017.08.03-01.09.57:061][488]TextureStreamingBuild:Display: Compiling optional shaders took 0.601 seconds.
+[2017.08.03-01.09.58:325][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/M_Weapons_Metal" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Weapons/M_Weapons_Metal.uasset" SILENT=true
+[2017.08.03-01.09.58:341][488]LogSavePackage: Save=13.45ms
+[2017.08.03-01.09.58:341][488]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/M_Weapons_MetalF8FC7BF14030E4A4C5510D8A8DF18506.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Weapons/M_Weapons_Metal.uasset'
+[2017.08.03-01.09.58:343][488]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Weapons/M_Weapons_Metal.uasset
+[2017.08.03-01.09.58:351][488]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.08.03-01.09.58:351][488]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.03-01.09.58:351][488]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.03-01.11.56:643][803]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:1).
+[2017.08.03-01.12.14:619][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.08.03-01.12.14:637][655]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.08.03-01.13.48:231][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/SK_KnightGirl" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset" SILENT=true
+[2017.08.03-01.13.48:243][792]LogSavePackage: Save=5.08ms
+[2017.08.03-01.13.48:243][792]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/SK_KnightGirlA0D9DB7A4C752A8BB4B2A49D261491F9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset'
+[2017.08.03-01.13.48:247][792]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset
+[2017.08.03-01.14.42:308][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Knight/SK_KnightGirl" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset" SILENT=true
+[2017.08.03-01.14.42:316][380]LogSavePackage: Save=4.45ms
+[2017.08.03-01.14.42:316][380]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/SK_KnightGirlD6EFA09E40D704B20A5AB0B3F3B6C738.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset'
+[2017.08.03-01.14.42:318][380]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Knight/SK_KnightGirl.uasset
+[2017.08.03-01.16.37:906][804]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.03-01.16.37:912][804]LogBlueprint:Error: [Compiler BP_KCBase] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.08.03-01.16.38:110][804]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.08.03-01.16.38:110][804]LogBlueprint:Warning: [Compiler BP_KCBase] Warning [2050.49] Compile of BP_KCBase failed. 1 Fatal Issue(s) 0 Warning(s) [in 203 ms] (/Game/Blueprints/BP_KCBase.BP_KCBase)
+[2017.08.03-01.16.38:206][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-01.16.38:248][812]LogSavePackage: Save=32.87ms
+[2017.08.03-01.16.38:248][812]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase22819AF34A568A2182B9CB8D343C8C3F.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-01.16.38:250][812]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-01.17.04:044][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.03-01.17.04:809][976]LogSavePackage: Save=749.90ms
+[2017.08.03-01.17.04:809][976]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_Auto66C9EC7604612092A79D4C3A2A0960C62.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto6.umap'
+[2017.08.03-01.17.04:811][976]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Levels/Level2_Auto6.umap
+[2017.08.03-01.17.04:813][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level2' took 0.791
+[2017.08.03-01.17.04:813][976]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.791
+[2017.08.03-01.17.04:815][976]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Weapons/S_Sword_Basic] ([1] browsable assets)...
+[2017.08.03-01.17.04:831][976]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Weapons/S_Sword_Basic.S_Sword_Basic]
+[2017.08.03-01.17.04:831][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Weapons/S_Sword_Basic]
+[2017.08.03-01.17.04:844][976]LogSavePackage: Save=11.70ms
+[2017.08.03-01.17.04:845][976]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/S_Sword_Basic_Auto6010F31934A87FBBDB9926782B307383B.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Weapons/S_Sword_Basic_Auto6.uasset'
+[2017.08.03-01.17.04:846][976]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Autosaves/Game/Assets/Weapons/S_Sword_Basic_Auto6.uasset
+[2017.08.03-01.17.04:846][976]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.08.03-01.19.26:910][315]BlueprintLog: New page: Compile BP_BasicSword
+[2017.08.03-01.19.27:328][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BasicSword" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_BasicSword.uasset" SILENT=true
+[2017.08.03-01.19.27:347][328]LogSavePackage: Save=17.04ms
+[2017.08.03-01.19.27:347][328]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_BasicSword6155B0F24B7943EF01F7CD9A167039E5.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_BasicSword.uasset'
+[2017.08.03-01.19.27:349][328]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_BasicSword.uasset
+[2017.08.03-01.19.33:508][ 56]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.03-01.21.00:066][941]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.08.03-01.21.00:085][941]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_6.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.08.03-01.21.13:361][475]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.03-01.21.14:128][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-01.21.14:172][519]LogSavePackage: Save=41.20ms
+[2017.08.03-01.21.14:172][519]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase2D6E6045470D32B4A5BB439B1ED0B3E7.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-01.21.14:175][519]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-01.21.25:404][864]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.03-01.21.25:849][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-01.21.25:892][898]LogSavePackage: Save=40.01ms
+[2017.08.03-01.21.25:892][898]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase40204A1B4FDD81C722AF2C97592FF7FD.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-01.21.25:895][898]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-01.22.20:835][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-01.22.21:601][485]LogSavePackage: Save=734.92ms
+[2017.08.03-01.22.21:601][485]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2F6B45CB140EE7AB1C2D39089AC02A72C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.03-01.22.21:607][485]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.03-01.22.21:639][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.03-01.22.22:697][485]LogSavePackage: Save=1023.06ms
+[2017.08.03-01.22.22:697][485]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData0B6899BC480C5DF10C9077A234215D27.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.03-01.22.22:701][485]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.03-01.22.23:148][501]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-01.22.23:169][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-01.22.23:169][501]PIE: New page: PIE session: Level2 (Aug 2, 2017, 11:22:23 AM)
+[2017.08.03-01.22.23:169][501]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.03-01.22.23:211][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042343s)
+[2017.08.03-01.22.23:212][501]LogAIModule: Creating AISystem for world Level2
+[2017.08.03-01.22.23:213][501]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2017.08.03-01.22.23:213][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.044062s)
+[2017.08.03-01.22.23:240][501]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.03-01.22.23:246][501]LogInit: FAudioDevice initialized.
+[2017.08.03-01.22.23:277][501]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.03-01.22.23:288][501]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-18.22.23
+[2017.08.03-01.22.23:289][501]LogWorld: Bringing up level for play took: 0.010637
+[2017.08.03-01.22.23:291][501]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 1.029
+[2017.08.03-01.23.34:553][300]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_7.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.08.03-01.23.34:572][300]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_7.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.08.03-01.23.52:746][950]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-01.23.52:766][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-01.23.52:766][950]PIE: New page: PIE session: Level2 (Aug 2, 2017, 11:23:52 AM)
+[2017.08.03-01.23.52:766][950]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.03-01.23.52:807][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040949s)
+[2017.08.03-01.23.52:807][950]LogAIModule: Creating AISystem for world Level2
+[2017.08.03-01.23.52:807][950]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.08.03-01.23.52:808][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.041922s)
+[2017.08.03-01.23.52:836][950]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.03-01.23.52:842][950]LogInit: FAudioDevice initialized.
+[2017.08.03-01.23.52:874][950]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.03-01.23.52:886][950]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-18.23.52
+[2017.08.03-01.23.52:886][950]LogWorld: Bringing up level for play took: 0.010898
+[2017.08.03-01.23.52:888][950]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.626
+[2017.08.03-01.25.29:150][291]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.03-01.25.29:731][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-01.25.29:781][340]LogSavePackage: Save=41.00ms
+[2017.08.03-01.25.29:781][340]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase28E3E8554AAC7AE10B68CE96F5EE8F05.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-01.25.29:785][340]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-01.25.32:503][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-01.25.33:251][500]LogSavePackage: Save=726.52ms
+[2017.08.03-01.25.33:251][500]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level214F18E744CFC3537F945138BDA830219.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.03-01.25.33:254][500]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.03-01.25.33:285][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.03-01.25.34:372][500]LogSavePackage: Save=1084.59ms
+[2017.08.03-01.25.34:374][500]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData126F07964379C8A735ECB29A0E93EC9C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.03-01.25.34:378][500]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.03-01.27.17:773][149]BlueprintLog: New page: Compile BP_KCBase
+[2017.08.03-01.27.18:703][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KCBase" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset" SILENT=true
+[2017.08.03-01.27.18:748][239]LogSavePackage: Save=41.37ms
+[2017.08.03-01.27.18:748][239]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_KCBase0964493641D204825E6492821DA698F2.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset'
+[2017.08.03-01.27.18:751][239]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_KCBase.uasset
+[2017.08.03-01.27.22:274][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-01.27.23:032][587]LogSavePackage: Save=729.18ms
+[2017.08.03-01.27.23:032][587]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2C42F524E442332569117C49D3724EFD9.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.03-01.27.23:036][587]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.03-01.27.23:060][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.03-01.27.24:130][587]LogSavePackage: Save=1036.00ms
+[2017.08.03-01.27.24:130][587]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltData7BBBF34E4A384B5FC893A3AF3BEED87E.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.03-01.27.24:133][587]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.03-01.27.24:334][593]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-01.27.24:355][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-01.27.24:355][593]PIE: New page: PIE session: Level2 (Aug 2, 2017, 11:27:24 AM)
+[2017.08.03-01.27.24:355][593]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.03-01.27.24:399][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043884s)
+[2017.08.03-01.27.24:400][593]LogAIModule: Creating AISystem for world Level2
+[2017.08.03-01.27.24:400][593]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.08.03-01.27.24:401][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.045252s)
+[2017.08.03-01.27.24:429][593]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.03-01.27.24:435][593]LogInit: FAudioDevice initialized.
+[2017.08.03-01.27.24:468][593]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.03-01.27.24:479][593]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-18.27.24
+[2017.08.03-01.27.24:479][593]LogWorld: Bringing up level for play took: 0.010453
+[2017.08.03-01.27.24:502][593]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.239
+[2017.08.03-01.27.36:835][797]LogCharacterMovement: BP_KCBase_C_0 is stuck and failed to move! Velocity: X=600.00 Y=0.00 Z=0.00 Location: X=15783.46 Y=-3942.69 Z=208.02 Normal: X=0.98 Y=-0.20 Z=0.00 PenetrationDepth:26.654 Actor:BP_BasicSword_C_1 Component:SwordMesh BoneName:None (0 other events since notify)
+[2017.08.03-01.27.37:907][903]LogCharacterMovement: BP_KCBase_C_0 is stuck and failed to move! Velocity: X=21.49 Y=-0.00 Z=0.00 Location: X=15775.38 Y=-3812.58 Z=209.42 Normal: X=0.90 Y=-0.44 Z=-0.00 PenetrationDepth:29.122 Actor:BP_BasicSword_C_1 Component:SwordMesh BoneName:None (17 other events since notify)
+[2017.08.03-01.27.38:915][  9]LogCharacterMovement: BP_KCBase_C_0 is stuck and failed to move! Velocity: X=18.55 Y=-0.00 Z=0.00 Location: X=15840.22 Y=-3876.24 Z=255.20 Normal: X=1.00 Y=0.00 Z=0.00 PenetrationDepth:44.666 Actor:BP_BasicSword_C_1 Component:SwordMesh BoneName:None (44 other events since notify)
+[2017.08.03-01.27.40:413][148]LogCharacterMovement: BP_KCBase_C_0 is stuck and failed to move! Velocity: X=600.00 Y=0.00 Z=0.00 Location: X=14231.12 Y=-4595.68 Z=209.69 Normal: X=-0.94 Y=-0.09 Z=-0.32 PenetrationDepth:8.371 Actor:BP_BasicSword_C_1 Component:SwordMesh BoneName:None (22 other events since notify)
+[2017.08.03-01.28.41:965][492]BlueprintLog: New page: Compile BP_BasicSword
+[2017.08.03-01.28.42:390][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BasicSword" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_BasicSword.uasset" SILENT=true
+[2017.08.03-01.28.42:413][523]LogSavePackage: Save=16.72ms
+[2017.08.03-01.28.42:414][523]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/BP_BasicSwordFEF8138746F6765CE0A0FBB8D45C8398.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_BasicSword.uasset'
+[2017.08.03-01.28.42:416][523]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Blueprints/BP_BasicSword.uasset
+[2017.08.03-01.28.43:699][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-01.28.44:450][650]LogSavePackage: Save=730.57ms
+[2017.08.03-01.28.44:450][650]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level23EDC88B04CB93E8C7DCF75B4E2FB931C.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap'
+[2017.08.03-01.28.44:453][650]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2.umap
+[2017.08.03-01.28.44:486][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2_BuiltData" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset" SILENT=true
+[2017.08.03-01.28.45:536][650]LogSavePackage: Save=1047.49ms
+[2017.08.03-01.28.45:536][650]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Level2_BuiltDataA1AEA2C041502DB44C536DAEBB95895F.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset'
+[2017.08.03-01.28.45:539][650]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Levels/Level2_BuiltData.uasset
+[2017.08.03-01.28.46:205][699]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-01.28.46:231][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-01.28.46:232][699]PIE: New page: PIE session: Level2 (Aug 2, 2017, 11:28:46 AM)
+[2017.08.03-01.28.46:232][699]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2017.08.03-01.28.46:273][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041439s)
+[2017.08.03-01.28.46:274][699]LogAIModule: Creating AISystem for world Level2
+[2017.08.03-01.28.46:274][699]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.08.03-01.28.46:274][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.042575s)
+[2017.08.03-01.28.46:298][699]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.03-01.28.46:305][699]LogInit: FAudioDevice initialized.
+[2017.08.03-01.28.46:337][699]LogLoad: Game class is 'BP_KGBaseGamemode_C'
+[2017.08.03-01.28.46:348][699]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2017.08.02-18.28.46
+[2017.08.03-01.28.46:349][699]LogWorld: Bringing up level for play took: 0.010211
+[2017.08.03-01.28.46:351][699]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.089
+[2017.08.03-01.38.17:991][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/S_Sword_Basic" FILE="C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Weapons/S_Sword_Basic.uasset" SILENT=true
+[2017.08.03-01.38.18:006][749]LogSavePackage: Save=12.54ms
+[2017.08.03-01.38.18:006][749]LogSavePackage: Moving 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/S_Sword_BasicA3F48E234005EB300CC7E783D2E88FCF.tmp' to 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Weapons/S_Sword_Basic.uasset'
+[2017.08.03-01.38.18:008][749]LogSavePackage:Display: Finished SavePackage C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Assets/Weapons/S_Sword_Basic.uasset
+[2017.08.03-03.02.41:102][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.03-03.02.41:204][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.03-03.02.41:632][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.03-03.02.42:031][148]Cmd: QUIT_EDITOR
+[2017.08.03-03.02.43:072][148]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.03-03.02.43:122][148]LogExit: Preparing to exit.
+[2017.08.03-03.02.44:060][148]LogExit: Editor shut down
+[2017.08.03-03.02.44:082][148]LogExit: Transaction tracking system shut down
+[2017.08.03-03.02.44:486][148]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.03-03.02.44:486][148]LogExit: Object subsystem successfully closed.
+[2017.08.03-03.02.44:559][148]LogD3D11RHI: Shutdown
+[2017.08.03-03.02.44:559][148]LogD3D11RHI: CleanupD3DDevice
+[2017.08.03-03.02.44:780][148]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (548)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (546)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module MaterialEditor (544)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (542)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module AnimationEditor (540)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (538)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (534)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.03-03.02.44:908][148]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.03-03.02.44:909][148]LogDirectoryWatcher: A directory notification for 'A:/Unreal Engine Things/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.03-03.02.44:913][148]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.03-03.02.44:913][148]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.03-03.02.44:913][148]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.03-03.02.44:913][148]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Collections/' was aborted.
+[2017.08.03-03.02.44:913][148]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/Developers/antma/Collections/' was aborted.
+[2017.08.03-03.02.44:914][148]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Saved/Collections/' was aborted.
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.03-03.02.44:914][148]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.03-03.02.44:917][148]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.03-03.02.44:921][148]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.03-03.02.44:926][148]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.03-03.02.44:926][148]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.03-03.02.44:926][148]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.03-03.02.44:926][148]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.03-03.02.44:926][148]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.03-03.02.44:926][148]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.03-03.02.44:929][148]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.03-03.02.44:933][148]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.03-03.02.44:938][148]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.03-03.02.44:945][148]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.03-03.02.44:945][148]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.03-03.02.44:945][148]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.03-03.02.44:945][148]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.03-03.02.44:945][148]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.03-03.02.45:909][148]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.03-03.02.45:909][148]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.03-03.02.45:909][148]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.03-03.02.45:909][148]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.03-03.02.45:915][148]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.03-03.02.45:915][148]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.03-03.02.45:921][148]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.03-03.02.45:921][148]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.03-03.02.45:929][148]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.03-03.02.45:929][148]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.03-03.02.45:929][148]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.03-03.02.45:930][148]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.03-03.02.45:930][148]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.03-03.02.45:930][148]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.03-03.02.45:930][148]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.03-03.02.45:930][148]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.03-03.02.45:931][148]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.03-03.02.45:931][148]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.03-03.02.45:931][148]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.03-03.02.45:931][148]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.03-03.02.45:937][148]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.03-03.02.45:945][148]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.03-03.02.45:962][148]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.03-03.02.45:969][148]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.03-03.02.46:034][148]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.03-03.02.46:034][148]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.03-03.02.46:040][148]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.03-03.02.46:041][148]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.03-03.02.46:053][148]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.03-03.02.46:056][148]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.03-03.02.46:056][148]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.03-03.02.46:060][148]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.03-03.02.46:061][148]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.03-03.02.46:061][148]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.03-03.02.46:085][148]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.03-03.02.46:087][148]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.03-03.02.46:087][148]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.03-03.02.46:087][148]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.03-03.02.46:087][148]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.03-03.02.46:099][148]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.03-03.02.46:230][148]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.03-03.02.46:230][148]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.03-03.02.46:231][148]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.03-03.02.46:235][148]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.03-03.02.46:235][148]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.03-03.02.46:241][148]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.03-03.02.46:242][148]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.03-03.02.46:242][148]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.03-03.02.46:242][148]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.03-03.02.46:242][148]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.03-03.02.46:242][148]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.03-03.02.46:242][148]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.03-03.02.46:243][148]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.03-03.02.46:345][148]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.03-03.02.46:446][148]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.03-03.02.46:446][148]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.03-03.02.46:446][148]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.03-03.02.46:446][148]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.03-03.02.46:446][148]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.03-03.02.46:446][148]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.03-03.02.46:447][148]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.03-03.02.46:447][148]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.03-03.02.46:447][148]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.03-03.02.46:447][148]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.03-03.02.46:447][148]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.03-03.02.46:447][148]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.03-03.02.46:456][148]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.03-03.02.46:456][148]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.03-03.02.46:457][148]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.03-03.02.46:457][148]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.03-03.02.46:467][148]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.03-03.02.46:467][148]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.03-03.02.46:477][148]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.03-03.02.46:477][148]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.03-03.02.46:484][148]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.03-03.02.46:489][148]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.03-03.02.46:506][148]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.03-03.02.46:506][148]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.03-03.02.46:506][148]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.03-03.02.46:506][148]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.03-03.02.46:506][148]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.03-03.02.46:523][148]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.03-03.02.46:523][148]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.03-03.02.46:525][148]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.03-03.02.46:525][148]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.03-03.02.46:525][148]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.03-03.02.46:525][148]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.03-03.02.46:525][148]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.03-03.02.46:525][148]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.03-03.02.46:668][148]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.03-03.02.46:668][148]LogDirectoryWatcher: A directory notification for 'C:/Users/antma/Documents/GitHub/Ue_4.16_Survival_Game/Content/' was aborted.
+[2017.08.03-03.02.46:668][148]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.03-03.02.46:668][148]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.03-03.02.46:674][148]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.03-03.02.46:678][148]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.03-03.02.46:757][148]LogDerivedDataCache: Shutdown
+[2017.08.03-03.02.46:757][148]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.03-03.02.46:757][148]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.03-03.02.46:757][148]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.03-03.02.46:762][148]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.03-03.02.46:764][148]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.03-03.02.46:764][148]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.03-03.02.46:765][148]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.03-03.02.46:766][148]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.03-03.02.46:768][148]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.03-03.02.46:768][148]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.03-03.02.46:768][148]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.03-03.02.46:768][148]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.03-03.02.46:777][148]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.03-03.02.46:777][148]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.03-03.02.46:777][148]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.08.03-03.02.46:777][148]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00EB0FB9-4745-8F8B-617F-C8ACE5C0C5FA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=520f5a664a9a65cee5908a8fb9436eea%7C69a6443c127b4b76b30856c672c512b8%7Ce6cd1087-9776-45de-91c8-004f73fe86c1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.03-03.02.46:777][148]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00EB0FB9-4745-8F8B-617F-C8ACE5C0C5FA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=520f5a664a9a65cee5908a8fb9436eea%7C69a6443c127b4b76b30856c672c512b8%7Ce6cd1087-9776-45de-91c8-004f73fe86c1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.03-03.02.46:798][148]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.03-03.02.46:800][148]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.03-03.02.46:809][148]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.03-03.02.46:809][148]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.03-03.02.46:809][148]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.03-03.02.46:815][148]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.03-03.02.46:815][148]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.03-03.02.46:815][148]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.03-03.02.46:815][148]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.03-03.02.46:824][148]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.03-03.02.46:825][148]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.03-03.02.46:827][148]LogExit: Exiting.
+[2017.08.03-03.02.46:842][148]Log file closed, 08/02/17 20:02:46
